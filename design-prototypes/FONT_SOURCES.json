@@ -1,0 +1,18 @@
+[
+  {
+    "family": "Geist:wght@400;500;600;700",
+    "stylesheet": "https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap",
+    "source": "https://fonts.gstatic.com/s/geist/v5/gyByhwUxId8gMEwcGFU.woff2",
+    "bytes": 29400,
+    "magic": "wOF2",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/geist/OFL.txt"
+  },
+  {
+    "family": "Fraunces:opsz,wght@9..144,600",
+    "stylesheet": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&display=swap",
+    "source": "https://fonts.gstatic.com/s/fraunces/v38/6NUu8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7iQcIfJD58njt0oc7qv8.woff2",
+    "bytes": 35120,
+    "magic": "wOF2",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/OFL.txt"
+  }
+]

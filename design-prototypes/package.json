@@ -1,0 +1,22 @@
+{
+  "name": "mess-menu-two-design-prototypes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0 --port 4322",
+    "check": "astro check",
+    "build": "astro build",
+    "preview": "astro preview --host 0.0.0.0 --port 4322",
+    "verify": "node scripts/capture.mjs"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.4.2",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@playwright/test": "^1.64.1",
+    "typescript": "^6.0.3"
+  }
+}

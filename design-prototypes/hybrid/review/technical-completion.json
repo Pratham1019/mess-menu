@@ -1,0 +1,206 @@
+{
+  "method": "Direct parent completion after delegated technical task hit usage limit; not an independent second review.",
+  "computed375": {
+    "url": "http://localhost:4322/hybrid/lunch/",
+    "width": 375,
+    "overflow": false,
+    "body": {
+      "color": "rgb(44, 37, 40)",
+      "background": "rgb(247, 243, 233)",
+      "font": "Plex, system-ui, sans-serif",
+      "size": "16px",
+      "line": "23.2px",
+      "width": 375,
+      "height": 1425.09375
+    },
+    "food": {
+      "color": "rgb(44, 37, 40)",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Plex, system-ui, sans-serif",
+      "size": "16px",
+      "line": "24px",
+      "width": 335,
+      "height": 24
+    },
+    "meta": {
+      "color": "rgb(114, 99, 106)",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Plex, system-ui, sans-serif",
+      "size": "12px",
+      "line": "18px",
+      "width": 166,
+      "height": 18
+    },
+    "selected": {
+      "color": "rgb(255, 252, 245)",
+      "background": "rgb(124, 41, 62)",
+      "font": "Plex, system-ui, sans-serif",
+      "size": "13px",
+      "line": "18.85px",
+      "width": 80.25,
+      "height": 44
+    },
+    "control": {
+      "color": "rgb(114, 99, 106)",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Plex, system-ui, sans-serif",
+      "size": "13px",
+      "line": "18.85px",
+      "width": 80.25,
+      "height": 44
+    },
+    "serving": {
+      "color": "rgb(124, 41, 62)",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Plex, system-ui, sans-serif",
+      "size": "12px",
+      "line": "18px",
+      "width": 70,
+      "height": 18
+    },
+    "targets": [
+      {
+        "text": "Breakfast",
+        "w": 80.25,
+        "h": 44
+      },
+      {
+        "text": "Lunch",
+        "w": 80.25,
+        "h": 44
+      },
+      {
+        "text": "Snacks",
+        "w": 80.25,
+        "h": 44
+      },
+      {
+        "text": "Dinner",
+        "w": 80.25,
+        "h": 44
+      },
+      {
+        "text": "FC1",
+        "w": 44,
+        "h": 44
+      },
+      {
+        "text": "FC2",
+        "w": 44,
+        "h": 44
+      },
+      {
+        "text": "Sindhi",
+        "w": 44,
+        "h": 44
+      },
+      {
+        "text": "Source",
+        "w": 53.5,
+        "h": 44
+      },
+      {
+        "text": "Source",
+        "w": 53.5,
+        "h": 44
+      },
+      {
+        "text": "Source",
+        "w": 53.5,
+        "h": 44
+      }
+    ],
+    "allFullWidth": true
+  },
+  "mixedWidths": [
+    {
+      "width": 320,
+      "overflow": false,
+      "mealTargets": [
+        {
+          "name": "Breakfast",
+          "w": 68.5,
+          "h": 44
+        },
+        {
+          "name": "Lunch",
+          "w": 68.5,
+          "h": 44
+        },
+        {
+          "name": "Snacks",
+          "w": 68.5,
+          "h": 44
+        },
+        {
+          "name": "Dinner",
+          "w": 68.5,
+          "h": 44
+        }
+      ],
+      "messes": [
+        "fc1",
+        "fc2",
+        "sindhi"
+      ],
+      "cached": true,
+      "missing": true,
+      "sindhiFoodVisible": true,
+      "stickyTop": 0,
+      "sourceTexts": [
+        "Source: 22 Oct · year unknownLast retrieved · 22 Oct, 17:03 ISTSource",
+        "Source unavailable · retained snapshotLast retrieved · 22 Oct, 17:05 ISTSource",
+        "Menu 1 · rotating scheduleSnapshot check · 17:28 ISTSource"
+      ]
+    },
+    {
+      "width": 430,
+      "overflow": false,
+      "mealTargets": [
+        {
+          "name": "Breakfast",
+          "w": 92,
+          "h": 44
+        },
+        {
+          "name": "Lunch",
+          "w": 92,
+          "h": 44
+        },
+        {
+          "name": "Snacks",
+          "w": 92,
+          "h": 44
+        },
+        {
+          "name": "Dinner",
+          "w": 92,
+          "h": 44
+        }
+      ],
+      "messes": [
+        "fc1",
+        "fc2",
+        "sindhi"
+      ],
+      "cached": true,
+      "missing": true,
+      "sindhiFoodVisible": true,
+      "stickyTop": 0,
+      "sourceTexts": [
+        "Source: 22 Oct · year unknownLast retrieved · 22 Oct, 17:03 ISTSource",
+        "Source unavailable · retained snapshotLast retrieved · 22 Oct, 17:05 ISTSource",
+        "Menu 1 · rotating scheduleSnapshot check · 17:28 ISTSource"
+      ]
+    }
+  ],
+  "contrast": {
+    "foodOnPaper": 13.514133753996257,
+    "metadataOnPaper": 5.110564660440869,
+    "selectedTextAndFocus": 9.134106992312587,
+    "unselectedTextOnSelector": 4.475938865515729,
+    "accentOnPaper": 8.446433463450745
+  },
+  "browserOverlay": "Not completed after delegated task failure; no overlay findings claimed.",
+  "detector": "Existing one-pass CLI output reused: exit 0, [] findings. Service on8400 stopped with --keep-inject."
+}

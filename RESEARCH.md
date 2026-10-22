@@ -2,7 +2,7 @@
 
 Research date: 22 October 2026. Live HTTP and browser observations were made approximately 11:33–11:41 UTC (17:03–17:11 IST). This is a point-in-time inspection, not an uptime or accuracy guarantee.
 
-Status: research only. The application has not been scaffolded, implemented, or deployed. Architecture and design proposals await approval.
+Status: the source investigation below is historical point-in-time evidence. Isolated design prototypes now exist; production ingestion, infrastructure and deployment remain unimplemented. See the four-meal correction at the end for the current scope.
 
 ## 1. What was inspected
 
@@ -289,3 +289,19 @@ After a direction is approved, inspect the implementation at 320, 375, and 430px
 
 Design proposals and the recommendation are in [DESIGN_EXPLORATION.md](DESIGN_EXPLORATION.md). No direction is approved and DESIGN.md has not been created.
 
+
+
+## Four-meal prototype correction (owner update)
+
+The original lunch/dinner scope has been superseded in PRODUCT.md. Existing captured evidence supports FC1 and FC2 Breakfast, Lunch, Snacks and Dinner. No new menu endpoint was guessed or queried for this prototype round. Both replacement prototypes use frozen Thursday 22 October research fixtures.
+
+| Meal | FC1 observed time / item count | FC2 observed time / item count | Sindhi |
+| --- | --- | --- | --- |
+| Breakfast | 07:00–09:30 / 11 | 07:00–09:30 / 11 | Not served; omit |
+| Lunch | 12:00–14:00 / 10 | 11:45–14:15 / 10 | Selected Menu 1 |
+| Snacks | 16:30–17:45 / 4 | 16:30–18:00 / 4 | Not served; omit |
+| Dinner | 19:30–21:30 / 9 | 19:00–21:30 / 10 | Selected Menu 1 |
+
+Breakfast examples include FC1’s source `PANEER MINT PARATHA` and `HOT MILK ,BOURNVITA`, and FC2’s `Onion Utthappam` and `Cornflakes with Cold Milk`. Snacks include FC1’s `RIBBON SLICE CAKE` and FC2’s `Kacchi Dabeli (1 PC)`. See fc1-menu-literal.txt and fc2-menu-2026-10-22.json in research/evidence for the full, unchanged source lists. Presentation case and comma spacing are normalized in the new prototypes; spelling and composite entries are retained. Case is not evidence of dish importance. FC1’s source year remains unknown.
+
+Sindhi service availability comes from the owner: Lunch/Dinner Monday–Saturday only, no Sunday service. Unsupported meals and independent retrieval failures are different states.

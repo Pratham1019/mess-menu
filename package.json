@@ -1,0 +1,38 @@
+{
+  "name": "manipal-mess-menu",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0 --port 4321",
+    "check": "astro check",
+    "build": "astro build",
+    "test": "tsx --test tests/*.test.ts",
+    "admin:hash": "node scripts/hash-password.mjs",
+    "test:integration": "tsx --test tests/production.integration.ts"
+  },
+  "dependencies": {
+    "@astrojs/vercel": "^11.0.16",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vercel/blob": "^2.8.2",
+    "@vercel/firewall": "^1.2.6",
+    "acorn": "^8.19.0",
+    "astro": "^7.4.2",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "undici": "^8.12.3"
+  },
+  "overrides": {
+    "@vercel/routing-utils": {
+      "path-to-regexp": "6.3.0"
+    }
+  }
+}

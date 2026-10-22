@@ -1,6 +1,6 @@
 # Design exploration — three directions
 
-Status: proposed, not approved. This is a design decision document, not DESIGN.md or an implementation contract. No application UI has been coded.
+Status: historical three-direction exploration, superseded for the current prototype round by the owner revision at the end of this document. The isolated prototypes are not production approval. The original research narrative below is retained as dated evidence.
 
 Based on AGENTS.md, PRODUCT.md, DESIGN_BRIEF.md, the live-source research in [RESEARCH.md](RESEARCH.md), and Impeccable's Operate/planning guidance.
 
@@ -207,3 +207,13 @@ Impeccable also reported that PRODUCT.md lacks its optional current product-reco
 
 The next decision is which of these three directions to pursue, or what to revise. Stop here for the owner's approval. Source ingestion, the persistent cache, the Astro project, and UI components are still proposals.
 
+
+
+## Owner revision: four meals and two replacement prototypes
+
+The original directions and Daily Sheet prototype are historical exploration, not production approval. The owner rejected the first prototype as too plain. The next round explores Refined Modern Utility and Expressive Editorial Utility in `design-prototypes/`, independent of `prototype/`. Both support Breakfast, Lunch, Snacks and Dinner through one visible shared selector. Breakfast/Snacks show FC1 and FC2 only; Lunch/Dinner include Sindhi Menu 1. Known Sindhi service limits are not source failures. See PRODUCT.md and DESIGN_BRIEF.md for current requirements.
+
+
+## Owner revision: refined hybrid
+
+Neither replacement prototype was approved as-is. The next iteration is `/hybrid/`, recorded in `design-prototypes/hybrid/`: warm paper/deep ink/burgundy and serif identity, compact polished utility navigation, exclusively full-width individual dish lines with natural wrapping, no dot-separated food or mobile dish columns, and no repeated large mess cards. Prior explorations are historical references. Product rules, automatic IST entry, source fidelity and supported-meal eligibility remain. No production or deployment approval.

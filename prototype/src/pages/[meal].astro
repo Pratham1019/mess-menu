@@ -1,0 +1,13 @@
+---
+import DailySheet from '../components/DailySheet.astro';
+import type { Meal } from '../data/menu';
+export function getStaticPaths() {
+  return [
+    { params: { meal: 'lunch' }, props: { meal: 'lunch' } },
+    { params: { meal: 'dinner' }, props: { meal: 'dinner' } },
+  ];
+}
+interface Props { meal: Meal }
+const { meal } = Astro.props;
+---
+<DailySheet initialMeal={meal} />

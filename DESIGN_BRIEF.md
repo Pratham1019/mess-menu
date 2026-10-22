@@ -10,7 +10,7 @@ combined with the speed and precision of
 an excellent native utility.
 
 ## Visual Direction
-Swiss-inspired editorial minimalism.
+Contemporary mobile utility with editorial sophistication. Minimalism must feel deliberately designed, not like an unstyled document.
 
 Keywords:
 - Bold
@@ -45,10 +45,12 @@ deliberately chosen typeface.
 - Menus must dominate the screen.
 - Compact but comfortable information density.
 - Strong alignment and consistent spacing.
-- Prefer dividers over card containers.
+- Prefer coherent shared surfaces and dividers over repetitive card containers.
+- Selective rounding, subtle surface differentiation and restrained shadows are permitted when functional.
 - No horizontal carousel hiding menus.
 - No unnecessary navigation.
-- Desktop may use three comparison columns.
+- At 1024px+, use three mess comparison columns for Lunch/Dinner and two balanced columns for Breakfast/Snacks, within an approximately 1100–1200px maximum width.
+- At 600–1023px, provide a balanced intermediate layout. Mobile 320–599px keeps messes vertically stacked.
 
 ## Color
 - Primarily neutral.
@@ -61,7 +63,13 @@ Exact colors must be decided during
 design exploration, not prematurely fixed.
 
 ## Interactions
-- Lunch/dinner switcher must be obvious.
+- One compact shared four-option selector: Breakfast, Lunch, Snacks, Dinner.
+- All four options remain visible at 320px; use accessible touch targets.
+- Select the current/upcoming meal on entry using IST and the latest eligible serving end time. After Dinner, default to the next day’s Breakfast.
+- Explicit meal links/manual choices take precedence; do not change meals while someone is reading.
+- Sticky meal switching returns to the beginning of the comparison.
+- Show FC1 and FC2 for Breakfast/Snacks; add Sindhi for Lunch/Dinner.
+- Do not show unsupported Sindhi meals as failed or missing sources.
 - Minimize taps and scrolling.
 - Touch-friendly controls.
 - Fast, subtle feedback.
@@ -82,8 +90,9 @@ Never introduce:
 - Feature bloat.
 
 ## Design Exploration
-Before implementation, propose three
-genuinely distinct visual directions.
+Current owner request: neither prior prototype is approved as-is. Build one refined hybrid in `design-prototypes/hybrid/` and `/hybrid/`: warm paper, deep ink, restrained burgundy, expressive serif branding/mess headings, polished four-option utility controls and compact provenance. Keep prior explorations for comparison. No production ingestion or deployment.
+
+Hybrid dishes must be individual full-width lines with natural wrapping. No dot-separated menu paragraphs, multi-column mobile dish layouts, invented categories or large mess cards. Retain only source-provided groups. Keep eligible messes open in stable order. Capture full-page and first-viewport at 375px; verify 320px and 430px.
 
 For each, provide:
 - Visual identity.
@@ -118,3 +127,7 @@ The best interface is not the one with
 the most features or visual effects.
 It is the one that makes reading and
 comparing menus feel effortless.
+
+
+## Current responsive refinement
+Refine the existing hybrid rather than replace its world. Improve row rhythm, serving-time hierarchy and restrained metadata. Full-width individual dishes remain within each mess; source categories only. Compose the desktop toolbar and source columns intentionally. Required captures: full page and first viewport at both 375px mobile and 1440px desktop. No production ingestion or deployment.

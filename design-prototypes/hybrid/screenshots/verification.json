@@ -1,0 +1,148 @@
+{
+  "browser": "156.0.8078.4",
+  "viewportHeight": 812,
+  "dpr": 2,
+  "snapshots": [
+    {
+      "direction": "hybrid",
+      "width": 320,
+      "meal": "breakfast",
+      "height": 1109,
+      "overflow": false,
+      "firstDishTop": 245.03125,
+      "visibleDishes": 18,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "hybrid",
+      "width": 320,
+      "meal": "lunch",
+      "height": 1420,
+      "overflow": false,
+      "firstDishTop": 245.03125,
+      "visibleDishes": 18,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "hybrid",
+      "width": 320,
+      "meal": "snacks",
+      "height": 812,
+      "overflow": false,
+      "firstDishTop": 245.03125,
+      "visibleDishes": 8,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "hybrid",
+      "width": 320,
+      "meal": "dinner",
+      "height": 1363,
+      "overflow": false,
+      "firstDishTop": 245.03125,
+      "visibleDishes": 18,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "hybrid",
+      "width": 375,
+      "meal": "breakfast",
+      "height": 1113,
+      "overflow": false,
+      "firstDishTop": 248.28125,
+      "visibleDishes": 18,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "hybrid",
+      "width": 375,
+      "meal": "lunch",
+      "height": 1425,
+      "overflow": false,
+      "firstDishTop": 248.28125,
+      "visibleDishes": 18,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "hybrid",
+      "width": 375,
+      "meal": "snacks",
+      "height": 812,
+      "overflow": false,
+      "firstDishTop": 248.28125,
+      "visibleDishes": 8,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "hybrid",
+      "width": 375,
+      "meal": "dinner",
+      "height": 1368,
+      "overflow": false,
+      "firstDishTop": 248.28125,
+      "visibleDishes": 18,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "hybrid",
+      "width": 430,
+      "meal": "breakfast",
+      "height": 1113,
+      "overflow": false,
+      "firstDishTop": 248.28125,
+      "visibleDishes": 18,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "hybrid",
+      "width": 430,
+      "meal": "lunch",
+      "height": 1425,
+      "overflow": false,
+      "firstDishTop": 248.28125,
+      "visibleDishes": 18,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "hybrid",
+      "width": 430,
+      "meal": "snacks",
+      "height": 812,
+      "overflow": false,
+      "firstDishTop": 248.28125,
+      "visibleDishes": 8,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "hybrid",
+      "width": 430,
+      "meal": "dinner",
+      "height": 1368,
+      "overflow": false,
+      "firstDishTop": 248.28125,
+      "visibleDishes": 18,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    }
+  ],
+  "flows": [
+    "hybrid 320px: all four meals, eligibility, exact source entries, selector targets, overflow and 200% text reflow",
+    "hybrid 375px: all four meals, eligibility, exact source entries, selector targets, overflow and 200% text reflow",
+    "hybrid 430px: all four meals, eligibility, exact source entries, selector targets, overflow and 200% text reflow",
+    "hybrid: sticky selector, jump, reset, keyboard End, browser Back, independent mixed states, unsupported meals omitted and keyboard skip on all meals",
+    "Hybrid automatic IST entry: nine boundary/overnight cases, manual override preserved on reload"
+  ],
+  "errors": [],
+  "external": []
+}

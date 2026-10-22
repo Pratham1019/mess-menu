@@ -1,0 +1,6 @@
+---
+import { displayName, type Dish } from '../lib/menu';
+interface Props { items: Dish[] }
+const { items } = Astro.props;
+---
+<ul class="dishes">{items.map(item => <li class="dish" data-tags={item.tags.length ? item.tags.join(',') : undefined}><span>{displayName(item.name)}</span>{item.tags.length > 0 && <small class="dietary">{item.tags.join(' · ')}</small>}</li>)}</ul>

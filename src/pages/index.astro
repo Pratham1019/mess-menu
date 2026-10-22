@@ -1,0 +1,52 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Menu from '../components/Menu.astro';
+import { eligible, isMeal, labels, meals, type Meal } from '../lib/menu';
+import { addDays, defaultSelection, isDate, istDate, mealCutoffs, shortDate } from '../lib/dates';
+import { dayMenus } from '../lib/server/menus';
+
+const now = new Date();
+const today = istDate(now);
+const mealParam = Astro.url.searchParams.get('meal');
+const dateParam = Astro.url.searchParams.get('date');
+if ((mealParam !== null && !isMeal(mealParam)) || (dateParam !== null && (!isDate(dateParam) || Math.abs(Date.parse(dateParam) - Date.parse(today)) > 31 * 86_400_000))) {
+  return new Response('Invalid menu date or meal.', { status: 400 });
+}
+let date = dateParam ?? today;
+let day = await dayMenus(date, now);
+let meal: Meal;
+if (isMeal(mealParam)) meal = mealParam;
+else if (dateParam) meal = 'breakfast';
+else {
+  const selection = defaultSelection(now, day.results, day.overrides);
+  meal = selection.meal;
+  if (date !== selection.date) { date = selection.date; day = await dayMenus(date, now); }
+}
+const cutoffs = mealCutoffs(date, day.results, day.overrides);
+const weekday = new Intl.DateTimeFormat('en-IN', { weekday: 'long', timeZone: 'UTC' }).format(new Date(`${date}T12:00:00Z`));
+const dateText = new Intl.DateTimeFormat('en-IN', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(`${date}T12:00:00Z`));
+Astro.response.headers.set('Cache-Control', 'no-store');
+---
+<Layout title={`${labels[meal]} · ${shortDate(date)}`}>
+ <div class="menu-day" data-menu-date={date} data-default-meal={meal} data-meal-ends={cutoffs.join(',')} data-date-label={shortDate(date)}>
+  <div class="meal-toolbar">
+    <div class="date-line"><time datetime={date}><span class="date-weekday">{weekday}, </span><span class="date-value">{dateText}</span></time>{date === addDays(today, 1) && <span class="date-context">Tomorrow</span>}<span class="date-rule" aria-hidden="true"></span></div>
+    <nav class="meal-nav" aria-label="Meal period"><div class="meal-options">{meals.map(m => <a id={`tab-${m}`} data-meal={m} href={`/?meal=${m}&date=${date}`} class:list={['meal', { selected: m === meal }]} aria-current={m === meal ? 'page' : undefined}>{labels[m]}</a>)}</div></nav>
+  </div>
+  <main id="comparison" tabindex="-1">
+    <p id="device-cache-note" class="cache-note" role="status" hidden></p>
+    {meals.map(m => {
+      const { views, storageError } = day.byMeal[m];
+      const serving = eligible(date, m);
+      return <section id={`panel-${m}`} data-meal-panel={m} aria-labelledby={`tab-${m}`} hidden={m !== meal}>
+        <div class="comparison-heading"><h1>{labels[m]}</h1><nav class="jump" aria-label={`Jump to a ${labels[m].toLowerCase()} menu`}><span class="jump-label">Jump to</span>{serving.map(mess => <a href={`#${m}-${mess}`}>{mess === 'sindhi' ? 'Sindhi' : mess.toUpperCase()}</a>)}</nav></div>
+        {storageError && <p class="state-note">Editor updates are temporarily unavailable. Showing source schedules.</p>}
+        <div class="menu-stack" style={`--mess-count:${serving.length}`}>{views.map(view => <Menu view={view} date={date} meal={m} />)}</div>
+        {m !== 'breakfast' && m !== 'snacks' && serving.length === 2 && <p class="closure-note">Sindhi is closed on Sundays.</p>}
+      </section>;
+    })}
+  </main>
+  <footer class="app-footer"><p>Schedules may change. All times are IST.</p></footer>
+ </div>
+ <script>import '../scripts/menus';</script>
+</Layout>

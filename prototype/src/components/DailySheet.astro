@@ -1,0 +1,62 @@
+---
+import '../styles/global.css';
+import MenuSection from './MenuSection.astro';
+import { meals, messOrder, mealLabel, type Meal } from '../data/menu';
+
+interface Props { initialMeal: Meal }
+const { initialMeal } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" data-scenario="complete">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#F8F7F2" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Mess menus — MIT Manipal · Daily Sheet prototype</title>
+    <link rel="preload" href="/fonts/ibm-plex-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body>
+    <a href="#comparison" class="skip-link">Skip to menus</a>
+    <div class="sheet mx-auto max-w-[42rem] px-4 min-[400px]:px-5">
+      <header class="app-header">
+        <div class="masthead">
+          <h1>Mess menus</h1>
+          <p>MIT Manipal</p>
+        </div>
+        <p class="date"><time datetime="2026-10-22">Thursday, 22 October 2026</time></p>
+        <p class="review-context only-mixed" hidden>Prototype · simulated source failures</p>
+      </header>
+      <div class="meal-bar">
+        <div class="meal-switch" role="tablist" aria-label="Choose a meal">
+          {meals.map((meal) => (
+            <a href={`/${meal}/`} id={`tab-${meal}`} role="tab" aria-selected={initialMeal === meal} aria-controls={`panel-${meal}`} tabindex={initialMeal === meal ? 0 : -1} data-meal={meal}>
+              {mealLabel[meal]}
+            </a>
+          ))}
+        </div>
+      </div>
+      <nav class="mess-jumps" aria-label="Jump to a mess">
+        <span>Jump to</span>
+        {messOrder.map((id) => <a href={`#${initialMeal}-${id}`} data-jump={id}>{id === 'sindhi' ? 'Sindhi' : id.toUpperCase()}</a>)}
+      </nav>
+      <main id="comparison" tabindex="-1">
+        {meals.map((meal) => (
+          <div id={`panel-${meal}`} role="tabpanel" aria-labelledby={`tab-${meal}`} hidden={meal !== initialMeal} data-panel={meal}>
+            {messOrder.map((id) => <MenuSection id={id} meal={meal} />)}
+          </div>
+        ))}
+      </main>
+      <footer class="page-footer">
+        <p>All serving times are in IST.</p>
+        <p>Research snapshot · 22 October 2026</p>
+        <p class="only-mixed" hidden>Source failures above are simulated for review.</p>
+      </footer>
+    </div>
+    <p id="meal-announcement" class="sr-only" role="status" aria-live="polite"></p>
+    <script>
+      import '../scripts/interactions';
+    </script>
+  </body>
+</html>

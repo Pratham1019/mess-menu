@@ -1,0 +1,28 @@
+---
+import {data, eligible, meals, labels, type Meal} from '../data/menu';
+import Menu from './Menu.astro';
+import '../styles/base.css';
+import '../styles/hybrid.css';
+interface Props { meal: Meal; automatic?: boolean }
+const {meal,automatic=false}=Astro.props;
+const cutoffs=meals.map(m=>({meal:m,endMinutes:Math.max(...eligible(m).map(mess=>{
+ const end=data[mess].meals[m]?.time.split('–')[1];
+ if(!end || !/^\d{2}:\d{2}$/.test(end))throw new Error(`Invalid serving time: ${mess}/${m}`);
+ const [hour,minute]=end.split(':').map(Number);return hour!*60+minute!;
+}))}));
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#F7F3E9"/><meta name="robots" content="noindex"/><title>Mess menus · {labels[meal]} · Refined hybrid</title><link rel="preload" href="/fonts/ibm-plex-sans-latin.woff2" as="font" type="font/woff2" crossorigin/></head>
+<body class="hybrid" data-meal={meal} data-automatic-meal={automatic?'true':undefined} data-meal-cutoffs={automatic?JSON.stringify(cutoffs):undefined}>
+<a class="skip" href="#comparison">Skip to menus</a><div class="app">
+<header class="masthead"><div class="brand">The mess<span>.</span></div><span class="place">MIT Manipal</span></header>
+<div class="meal-toolbar">
+<div class="date-line"><span class="snapshot-label">Snapshot</span><time datetime="2026-10-22"><span class="day-long">Thursday</span><span class="day-short">Thu</span>, 22 October 2026</time><span class="date-rule" aria-hidden="true"></span></div>
+<nav class="meal-nav" aria-label="Meal period"><div class="meal-options" role="tablist" aria-label="Meal period">{meals.map(m=><a href={`/hybrid/${m}/`} class:list={['meal',{'selected':m===meal}]} data-meal={m} id={`tab-${m}`} role="tab" aria-selected={m===meal?'true':'false'} aria-controls={`panel-${m}`} tabindex="0">{labels[m]}</a>)}</div></nav>
+</div>
+<main id="comparison" tabindex="-1">{meals.map(m=><div class="meal-panel" id={`panel-${m}`} role="tabpanel" aria-labelledby={`tab-${m}`} hidden={m!==meal}>
+<div class="comparison-heading"><h1>{labels[m]}</h1><nav class="jump" aria-label={`Jump to a ${labels[m].toLowerCase()} menu`}><span class="jump-label">Jump to</span>{eligible(m).map(mess=><a href={`#${m}-${mess}`} data-jump={mess}>{mess==='sindhi'?'Sindhi':mess.toUpperCase()}</a>)}</nav></div>
+<p class="simulation" hidden>Prototype example · FC1 cached, FC2 unavailable</p>
+<div class="menu-stack" style={`--mess-count:${eligible(m).length}`}>{eligible(m).map(mess=><Menu meal={m} mess={mess} variant="hybrid"/>)}</div>
+</div>)}</main>
+<footer class="app-footer"><p>Menu schedules, not confirmed service.<br/>All serving times are IST.</p><p>Research snapshot · 22 October 2026<br/><a href="/">Earlier design explorations</a></p></footer>
+</div><script>import '../scripts/interactions';</script></body></html>

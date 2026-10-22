@@ -1,0 +1,21 @@
+---
+import { sources, type Meal, type MenuView } from '../lib/menu';
+import { checkedLabel, shortDate } from '../lib/dates';
+import DishList from './DishList.astro';
+interface Props { view: MenuView; date: string; meal: Meal }
+const { view, date, meal } = Astro.props;
+const { mess, menu, snapshot, stale } = view;
+const source = sources[mess];
+const id = `${meal}-${mess}`;
+---
+<section class="mess" id={id} aria-labelledby={`heading-${id}`}>
+  <div class="mess-head">
+    <h2 id={`heading-${id}`}>{source.name}</h2>
+    {menu && <div class="serving"><span class="serving-label">Serving</span><span>{menu.start}–{menu.end}</span></div>}
+  </div>
+  {stale && <p class="state-note">Cached menu{snapshot && <> · last checked <time datetime={snapshot.retrievedAt}>{checkedLabel(snapshot.retrievedAt)}</time></>}. The source couldn’t be refreshed.</p>}
+  {menu ? <div class="food">
+    {menu.note && <p class="menu-note">{menu.note}</p>}
+    {menu.sections.length ? menu.sections.map(section => <div class="food-group"><h3 class="category">{section.title}</h3><DishList items={section.items} /></div>) : <DishList items={menu.items} />}
+  </div> : <div class="missing"><h3>Menu unavailable</h3><p>No dated menu is available for {shortDate(date)}. Please check again later.</p></div>}
+</section>

@@ -1,0 +1,47 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { adminConfig, adminReady, clearCookie, LOGIN_COOKIE, newSession, readToken, SESSION_COOKIE, SESSION_SECONDS, setTokenCookie, signToken, verifyPassword } from '../../lib/server/auth';
+import { checkCsrf, checkOrigin, HttpError, readForm } from '../../lib/server/http';
+import { limitLogin } from '../../lib/server/rate-limit';
+
+if (!['GET', 'POST', 'HEAD'].includes(Astro.request.method)) return new Response('Method not allowed.', { status: 405, headers: { Allow: 'GET, HEAD, POST' } });
+if (Astro.locals.adminSession && Astro.request.method !== 'POST') return Astro.redirect('/admin', 303);
+let error = '';
+const ready = adminReady();
+if (Astro.request.method === 'POST') {
+  try {
+    const config = adminConfig();
+    checkOrigin(Astro.request, config.origin);
+    const form = await readForm(Astro.request, ['password', 'csrf'], 4096);
+    const challenge = readToken(Astro.cookies.get(LOGIN_COOKIE)?.value, 'login', config);
+    if (!challenge) throw new HttpError(403, 'Unable to sign in. Reload the page and try again.');
+    checkCsrf(form, challenge);
+    await limitLogin(Astro.request);
+    if (!await verifyPassword(form.get('password') ?? '', config.hash)) throw new HttpError(401, 'Unable to sign in. Check your password and try again.');
+    const session = newSession();
+    setTokenCookie(Astro.cookies, SESSION_COOKIE, signToken(session, 'session', config), SESSION_SECONDS);
+    clearCookie(Astro.cookies, LOGIN_COOKIE);
+    return Astro.redirect('/admin', 303);
+  } catch (cause) {
+    Astro.response.status = cause instanceof HttpError ? cause.status : 503;
+    if (Astro.response.status === 429) Astro.response.headers.set('Retry-After', '600');
+    error = cause instanceof HttpError ? cause.message : 'Sign-in is temporarily unavailable. Please try again later.';
+  }
+}
+if (!ready) { Astro.response.status = 503; error = 'Sign-in is temporarily unavailable. Please try again later.'; }
+const challenge = ready ? newSession(600) : null;
+if (challenge) setTokenCookie(Astro.cookies, LOGIN_COOKIE, signToken(challenge, 'login'), 600);
+---
+<Layout title="Admin sign in" admin>
+  <main id="editor" tabindex="-1">
+    <h1>Admin sign in</h1>
+    <p class="intro">Sign in to edit the mess menus.</p>
+    {error && <p class="notice error" role="alert">{error}</p>}
+    {challenge && <form action="/admin/login" method="post" class="login-form">
+      <input type="hidden" name="csrf" value={challenge.csrf} />
+      <div class="field"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" required maxlength="1024" autofocus /></div>
+      <button type="submit">Sign in</button>
+    </form>}
+    <a href="/" class="text-link">Back to menus</a>
+  </main>
+</Layout>

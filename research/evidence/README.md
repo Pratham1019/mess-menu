@@ -25,3 +25,7 @@ The three screenshots in ../screenshots show the live source pages at a 375 × 8
 Repository support was inspected at FC2 commit e709e677c4a97fcfb8348780157b3bfd23b9eed2 and Sindhi commit f1222d3708f48ba81e29ddc9ac015d02cdea43d2. Source links in RESEARCH.md pin those commits. The repository checkouts are temporary research material outside this project; they were not installed as dependencies.
 
 Sindhi's no-service Sunday rule is product-owner knowledge supplied during this session. Absence of Sunday from the API alone would not establish closure.
+
+## Prototype follow-up: Sindhi Menu 1
+
+The owner later requested Menu 1 for the Daily Sheet prototype. A fresh HTTP 200 response from https://sindhi.coolstuff.work/menu1.json is archived as sindhi-rotation-menu1.json. The exact follow-up retrieval time and HTTP headers are in ../../prototype/MENU1_SOURCE.json. This capture is later than the original research window above. The prototype's selected Menu 1 does not change the original observation that the source automatically selected Menu 3 on the research date.

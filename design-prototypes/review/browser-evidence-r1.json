@@ -1,0 +1,2634 @@
+{
+  "method": "Independent Assessment B; visual-r1.md existence checked, contents never read.",
+  "target": "design-prototypes/src",
+  "tabId": "tab_7_20a9d459-e818-4065-8dd3-76f90f81bc42",
+  "viewportPrimary": [
+    375,
+    812
+  ],
+  "keyboardFocus": [
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/editorial/breakfast/"
+      },
+      "value": {
+        "url": "http://localhost:4322/editorial/breakfast/",
+        "meal": "breakfast",
+        "scrollY": 0,
+        "active": "Breakfast",
+        "focusVisible": true,
+        "outline": "rgb(113, 62, 86) solid 2px",
+        "offset": "-4px",
+        "color": "rgb(54, 38, 55)",
+        "background": "rgba(0, 0, 0, 0)",
+        "indicator": "rgb(113, 62, 86)",
+        "rect": {
+          "x": 14,
+          "y": 99.046875,
+          "width": 73,
+          "height": 46,
+          "top": 99.046875,
+          "right": 87,
+          "bottom": 145.046875,
+          "left": 14
+        },
+        "tabs": [
+          {
+            "text": "Breakfast",
+            "selected": "true",
+            "tabIndex": 0,
+            "w": 73,
+            "h": 46,
+            "x": 14
+          },
+          {
+            "text": "Lunch",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 73,
+            "h": 46,
+            "x": 87
+          },
+          {
+            "text": "Snacks",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 73,
+            "h": 46,
+            "x": 160
+          },
+          {
+            "text": "Dinner",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 73,
+            "h": 46,
+            "x": 233
+          }
+        ],
+        "overflow": 0
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/editorial/lunch/"
+      },
+      "value": {
+        "url": "http://localhost:4322/editorial/lunch/",
+        "meal": "lunch",
+        "scrollY": 0,
+        "active": "Lunch",
+        "focusVisible": true,
+        "outline": "rgb(113, 62, 86) solid 2px",
+        "offset": "-4px",
+        "color": "rgb(54, 38, 55)",
+        "background": "rgba(0, 0, 0, 0)",
+        "indicator": "rgb(113, 62, 86)",
+        "rect": {
+          "x": 87,
+          "y": 99.046875,
+          "width": 73,
+          "height": 46,
+          "top": 99.046875,
+          "right": 160,
+          "bottom": 145.046875,
+          "left": 87
+        },
+        "tabs": [
+          {
+            "text": "Breakfast",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 73,
+            "h": 46,
+            "x": 14
+          },
+          {
+            "text": "Lunch",
+            "selected": "true",
+            "tabIndex": 0,
+            "w": 73,
+            "h": 46,
+            "x": 87
+          },
+          {
+            "text": "Snacks",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 73,
+            "h": 46,
+            "x": 160
+          },
+          {
+            "text": "Dinner",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 73,
+            "h": 46,
+            "x": 233
+          }
+        ],
+        "overflow": 0
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/editorial/snacks/"
+      },
+      "value": {
+        "url": "http://localhost:4322/editorial/snacks/",
+        "meal": "snacks",
+        "scrollY": 0,
+        "active": "Snacks",
+        "focusVisible": true,
+        "outline": "rgb(113, 62, 86) solid 2px",
+        "offset": "-4px",
+        "color": "rgb(54, 38, 55)",
+        "background": "rgba(0, 0, 0, 0)",
+        "indicator": "rgb(113, 62, 86)",
+        "rect": {
+          "x": 160,
+          "y": 99.046875,
+          "width": 73,
+          "height": 46,
+          "top": 99.046875,
+          "right": 233,
+          "bottom": 145.046875,
+          "left": 160
+        },
+        "tabs": [
+          {
+            "text": "Breakfast",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 73,
+            "h": 46,
+            "x": 14
+          },
+          {
+            "text": "Lunch",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 73,
+            "h": 46,
+            "x": 87
+          },
+          {
+            "text": "Snacks",
+            "selected": "true",
+            "tabIndex": 0,
+            "w": 73,
+            "h": 46,
+            "x": 160
+          },
+          {
+            "text": "Dinner",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 73,
+            "h": 46,
+            "x": 233
+          }
+        ],
+        "overflow": 0
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/editorial/dinner/"
+      },
+      "value": {
+        "url": "http://localhost:4322/editorial/dinner/",
+        "meal": "dinner",
+        "scrollY": 0,
+        "active": "Dinner",
+        "focusVisible": true,
+        "outline": "rgb(113, 62, 86) solid 2px",
+        "offset": "-4px",
+        "color": "rgb(54, 38, 55)",
+        "background": "rgba(0, 0, 0, 0)",
+        "indicator": "rgb(113, 62, 86)",
+        "rect": {
+          "x": 233,
+          "y": 99.046875,
+          "width": 73,
+          "height": 46,
+          "top": 99.046875,
+          "right": 306,
+          "bottom": 145.046875,
+          "left": 233
+        },
+        "tabs": [
+          {
+            "text": "Breakfast",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 73,
+            "h": 46,
+            "x": 14
+          },
+          {
+            "text": "Lunch",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 73,
+            "h": 46,
+            "x": 87
+          },
+          {
+            "text": "Snacks",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 73,
+            "h": 46,
+            "x": 160
+          },
+          {
+            "text": "Dinner",
+            "selected": "true",
+            "tabIndex": 0,
+            "w": 73,
+            "h": 46,
+            "x": 233
+          }
+        ],
+        "overflow": 0
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/modern/breakfast/"
+      },
+      "value": {
+        "url": "http://localhost:4322/modern/breakfast/",
+        "meal": "breakfast",
+        "scrollY": 0,
+        "active": "Breakfast",
+        "focusVisible": true,
+        "outline": "rgb(33, 92, 73) solid 2px",
+        "offset": "-3px",
+        "color": "rgb(33, 92, 73)",
+        "background": "rgb(255, 255, 255)",
+        "indicator": "rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 18,
+          "y": 92.3984375,
+          "width": 69.5,
+          "height": 44,
+          "top": 92.3984375,
+          "right": 87.5,
+          "bottom": 136.3984375,
+          "left": 18
+        },
+        "tabs": [
+          {
+            "text": "Breakfast",
+            "selected": "true",
+            "tabIndex": 0,
+            "w": 69.5,
+            "h": 44,
+            "x": 18
+          },
+          {
+            "text": "Lunch",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 69.5,
+            "h": 44,
+            "x": 89.5
+          },
+          {
+            "text": "Snacks",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 69.5,
+            "h": 44,
+            "x": 161
+          },
+          {
+            "text": "Dinner",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 69.5,
+            "h": 44,
+            "x": 232.5
+          }
+        ],
+        "overflow": 0
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/modern/lunch/"
+      },
+      "value": {
+        "url": "http://localhost:4322/modern/lunch/",
+        "meal": "lunch",
+        "scrollY": 0,
+        "active": "Lunch",
+        "focusVisible": true,
+        "outline": "rgb(33, 92, 73) solid 2px",
+        "offset": "-3px",
+        "color": "rgb(33, 92, 73)",
+        "background": "rgb(255, 255, 255)",
+        "indicator": "rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 89.5,
+          "y": 92.3984375,
+          "width": 69.5,
+          "height": 44,
+          "top": 92.3984375,
+          "right": 159,
+          "bottom": 136.3984375,
+          "left": 89.5
+        },
+        "tabs": [
+          {
+            "text": "Breakfast",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 69.5,
+            "h": 44,
+            "x": 18
+          },
+          {
+            "text": "Lunch",
+            "selected": "true",
+            "tabIndex": 0,
+            "w": 69.5,
+            "h": 44,
+            "x": 89.5
+          },
+          {
+            "text": "Snacks",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 69.5,
+            "h": 44,
+            "x": 161
+          },
+          {
+            "text": "Dinner",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 69.5,
+            "h": 44,
+            "x": 232.5
+          }
+        ],
+        "overflow": 0
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/modern/snacks/"
+      },
+      "value": {
+        "url": "http://localhost:4322/modern/snacks/",
+        "meal": "snacks",
+        "scrollY": 0,
+        "active": "Snacks",
+        "focusVisible": true,
+        "outline": "rgb(33, 92, 73) solid 2px",
+        "offset": "-3px",
+        "color": "rgb(33, 92, 73)",
+        "background": "rgb(255, 255, 255)",
+        "indicator": "rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 161,
+          "y": 92.3984375,
+          "width": 69.5,
+          "height": 44,
+          "top": 92.3984375,
+          "right": 230.5,
+          "bottom": 136.3984375,
+          "left": 161
+        },
+        "tabs": [
+          {
+            "text": "Breakfast",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 69.5,
+            "h": 44,
+            "x": 18
+          },
+          {
+            "text": "Lunch",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 69.5,
+            "h": 44,
+            "x": 89.5
+          },
+          {
+            "text": "Snacks",
+            "selected": "true",
+            "tabIndex": 0,
+            "w": 69.5,
+            "h": 44,
+            "x": 161
+          },
+          {
+            "text": "Dinner",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 69.5,
+            "h": 44,
+            "x": 232.5
+          }
+        ],
+        "overflow": 0
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/modern/dinner/"
+      },
+      "value": {
+        "url": "http://localhost:4322/modern/dinner/",
+        "meal": "dinner",
+        "scrollY": 0,
+        "active": "Dinner",
+        "focusVisible": true,
+        "outline": "rgb(33, 92, 73) solid 2px",
+        "offset": "-3px",
+        "color": "rgb(33, 92, 73)",
+        "background": "rgb(255, 255, 255)",
+        "indicator": "rgba(0, 0, 0, 0)",
+        "rect": {
+          "x": 232.5,
+          "y": 92.3984375,
+          "width": 69.5,
+          "height": 44,
+          "top": 92.3984375,
+          "right": 302,
+          "bottom": 136.3984375,
+          "left": 232.5
+        },
+        "tabs": [
+          {
+            "text": "Breakfast",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 69.5,
+            "h": 44,
+            "x": 18
+          },
+          {
+            "text": "Lunch",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 69.5,
+            "h": 44,
+            "x": 89.5
+          },
+          {
+            "text": "Snacks",
+            "selected": "false",
+            "tabIndex": -1,
+            "w": 69.5,
+            "h": 44,
+            "x": 161
+          },
+          {
+            "text": "Dinner",
+            "selected": "true",
+            "tabIndex": 0,
+            "w": 69.5,
+            "h": 44,
+            "x": 232.5
+          }
+        ],
+        "overflow": 0
+      }
+    }
+  ],
+  "jumps": [
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/modern/lunch/#comparison"
+      },
+      "value": {
+        "kind": "skip",
+        "direction": "modern",
+        "active": "comparison",
+        "top": 77.8984375,
+        "navBottom": 75.8984375
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/modern/lunch/#lunch-fc2"
+      },
+      "value": {
+        "kind": "jump-fc2",
+        "direction": "modern",
+        "hash": "#lunch-fc2",
+        "active": "<body class=\"modern\" data-meal=\"lunch\"><a class=\"skip\" href=\"#comparison\">Skip to menus</a><div class=\"app\"><header class=\"masthead\"><div class=\"brand\">Mess<span class=\"brand-dot\">.</span></div><span ",
+        "top": 96.9921875,
+        "navBottom": 62,
+        "scrollY": 441
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/modern/lunch/#lunch-fc2"
+      },
+      "value": {
+        "kind": "after-jump-tab",
+        "direction": "modern",
+        "active": "FC2 menu source, opens in new tab",
+        "outline": "rgb(33, 92, 73) solid 2px"
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/editorial/lunch/#comparison"
+      },
+      "value": {
+        "kind": "skip",
+        "direction": "editorial",
+        "active": "comparison",
+        "top": 78.1953125,
+        "navBottom": 78.1953125
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/editorial/lunch/#lunch-fc2"
+      },
+      "value": {
+        "kind": "jump-fc2",
+        "direction": "editorial",
+        "hash": "#lunch-fc2",
+        "active": "<body class=\"editorial\" data-meal=\"lunch\"><a class=\"skip\" href=\"#comparison\">Skip to menus</a><div class=\"app\"><header class=\"masthead\"><div class=\"brand\">The mess<span class=\"brand-dot\">.</span></div",
+        "top": 170.390625,
+        "navBottom": 48,
+        "scrollY": 276.5
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/editorial/lunch/#lunch-fc2"
+      },
+      "value": {
+        "kind": "after-jump-tab",
+        "direction": "editorial",
+        "active": "FC2 menu source, opens in new tab",
+        "outline": "rgb(113, 62, 86) solid 2px"
+      }
+    }
+  ],
+  "editorial375": {
+    "toolIcon": {
+      "_tag": "website",
+      "pageUrl": "http://localhost:4322/editorial/lunch/"
+    },
+    "value": {
+      "url": "http://localhost:4322/editorial/lunch/",
+      "viewport": [
+        375,
+        812
+      ],
+      "overflow": 0,
+      "headings": [
+        [
+          "H2",
+          "FC1"
+        ],
+        [
+          "H2",
+          "FC2"
+        ],
+        [
+          "H2",
+          "Sindhi"
+        ],
+        [
+          "H3",
+          "Non-Veg"
+        ],
+        [
+          "H3",
+          "Veg"
+        ],
+        [
+          "H3",
+          "Veg Sides"
+        ]
+      ],
+      "styles": [
+        {
+          "sel": ".dish",
+          "text": "Lauki channa kootu",
+          "fg": "rgb(54, 38, 55)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 12.23,
+          "size": "16px",
+          "line": "27px",
+          "rect": {
+            "x": 22,
+            "y": 259.890625,
+            "w": 151.5,
+            "h": 21
+          },
+          "selected": null
+        },
+        {
+          "sel": ".source-note",
+          "text": "22 Oct · source year not supplied",
+          "fg": "rgb(113, 99, 79)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 5.06,
+          "size": "11px",
+          "line": "15.95px",
+          "rect": {
+            "x": 22,
+            "y": 380.9453125,
+            "w": 164,
+            "h": 15.9453125
+          },
+          "selected": null
+        },
+        {
+          "sel": ".meta-text",
+          "text": "22 Oct · source year not suppliedChecked 17:03 IST",
+          "fg": "rgb(113, 99, 79)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 5.06,
+          "size": "11px",
+          "line": "15.95px",
+          "rect": {
+            "x": 22,
+            "y": 380.9453125,
+            "w": 164,
+            "h": 33.890625
+          },
+          "selected": null
+        },
+        {
+          "sel": ".serving",
+          "text": "12:00–14:00",
+          "fg": "rgb(113, 62, 86)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 7.21,
+          "size": "12px",
+          "line": "17.4px",
+          "rect": {
+            "x": 281.34375,
+            "y": 224.1953125,
+            "w": 71.65625,
+            "h": 17.3984375
+          },
+          "selected": null
+        },
+        {
+          "sel": ".meal",
+          "text": "Breakfast",
+          "fg": "rgb(113, 99, 79)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 5.06,
+          "size": "13px",
+          "line": "18.85px",
+          "rect": {
+            "x": 22,
+            "y": 102.1953125,
+            "w": 82.75,
+            "h": 46
+          },
+          "selected": "false"
+        },
+        {
+          "sel": ".meal",
+          "text": "Lunch",
+          "fg": "rgb(54, 38, 55)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 12.23,
+          "size": "13px",
+          "line": "18.85px",
+          "rect": {
+            "x": 104.75,
+            "y": 102.1953125,
+            "w": 82.75,
+            "h": 46
+          },
+          "selected": "true"
+        },
+        {
+          "sel": ".category",
+          "text": "Non-Veg",
+          "fg": "rgb(113, 62, 86)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 7.21,
+          "size": "12px",
+          "line": "17.4px",
+          "rect": {
+            "x": 22,
+            "y": 736.28125,
+            "w": 331,
+            "h": 17.3984375
+          },
+          "selected": null
+        },
+        {
+          "sel": ".date-line",
+          "text": "ThursdayThu, 22 October 2026Thursday’s edition",
+          "fg": "rgb(113, 99, 79)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 5.06,
+          "size": "12px",
+          "line": "17.4px",
+          "rect": {
+            "x": 22,
+            "y": 67.796875,
+            "w": 331,
+            "h": 33.3984375
+          },
+          "selected": null
+        },
+        {
+          "sel": ".app-footer",
+          "text": "Menu schedules, not confirmed service.All serving times are IST.Research snapshot · 22 Oct",
+          "fg": "rgb(113, 99, 79)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 5.06,
+          "size": "11px",
+          "line": "15.95px",
+          "rect": {
+            "x": 22,
+            "y": 957.4765625,
+            "w": 331,
+            "h": 130.8359375
+          },
+          "selected": null
+        },
+        {
+          "sel": ".jump a",
+          "text": "FC1",
+          "fg": "rgb(54, 38, 55)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 12.23,
+          "size": "11px",
+          "line": "15.95px",
+          "rect": {
+            "x": 239,
+            "y": 154.1953125,
+            "w": 34,
+            "h": 30
+          },
+          "selected": null
+        }
+      ],
+      "sources": [
+        {
+          "mess": "fc1",
+          "text": "22 Oct · source year not supplied\n\nChecked 17:03 IST\nSource",
+          "href": "https://bluspring.vercel.app/",
+          "foodVisible": true
+        },
+        {
+          "mess": "fc2",
+          "text": "Published schedule · 22 Oct\n\nChecked 17:05 IST\nSource",
+          "href": "https://tikmit.com/",
+          "foodVisible": true
+        },
+        {
+          "mess": "sindhi",
+          "text": "Menu 1 · rotating schedule\n\nChecked 17:28 IST\nSource",
+          "href": "https://sindhi.coolstuff.work/",
+          "foodVisible": true
+        }
+      ]
+    }
+  },
+  "representativeStates375": [
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/modern/breakfast/"
+      },
+      "value": {
+        "url": "http://localhost:4322/modern/breakfast/",
+        "viewport": [
+          375,
+          812
+        ],
+        "overflow": 0,
+        "headings": [
+          [
+            "H2",
+            "FC1"
+          ],
+          [
+            "H2",
+            "FC2"
+          ]
+        ],
+        "styles": [
+          {
+            "sel": ".dish",
+            "text": "Paneer mint paratha",
+            "fg": "rgb(28, 41, 37)",
+            "bg": [
+              255,
+              255,
+              255
+            ],
+            "ratio": 15.07,
+            "size": "16px",
+            "line": "23px",
+            "rect": {
+              "x": 38,
+              "y": 251.9921875,
+              "w": 142.5,
+              "h": 46
+            },
+            "selected": null
+          },
+          {
+            "sel": ".source-note",
+            "text": "22 Oct · source year not supplied",
+            "fg": "rgb(96, 113, 106)",
+            "bg": [
+              255,
+              255,
+              255
+            ],
+            "ratio": 5.16,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 38,
+              "y": 557.046875,
+              "w": 167.5,
+              "h": 15.9453125
+            },
+            "selected": null
+          },
+          {
+            "sel": ".meta-text",
+            "text": "22 Oct · source year not suppliedChecked 17:03 IST",
+            "fg": "rgb(96, 113, 106)",
+            "bg": [
+              255,
+              255,
+              255
+            ],
+            "ratio": 5.16,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 38,
+              "y": 557.046875,
+              "w": 167.5,
+              "h": 33.890625
+            },
+            "selected": null
+          },
+          {
+            "sel": ".serving",
+            "text": "07:00–09:30",
+            "fg": "rgb(74, 93, 84)",
+            "bg": [
+              242,
+              244,
+              243
+            ],
+            "ratio": 6.37,
+            "size": "12px",
+            "line": "17.4px",
+            "rect": {
+              "x": 251,
+              "y": 210.4921875,
+              "w": 86,
+              "h": 27.3984375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".meal",
+            "text": "Breakfast",
+            "fg": "rgb(33, 92, 73)",
+            "bg": [
+              255,
+              255,
+              255
+            ],
+            "ratio": 7.8,
+            "size": "13px",
+            "line": "18.85px",
+            "rect": {
+              "x": 24,
+              "y": 92.3984375,
+              "w": 80.25,
+              "h": 44
+            },
+            "selected": "true"
+          },
+          {
+            "sel": ".meal",
+            "text": "Lunch",
+            "fg": "rgb(74, 93, 84)",
+            "bg": [
+              226,
+              232,
+              229
+            ],
+            "ratio": 5.66,
+            "size": "13px",
+            "line": "18.85px",
+            "rect": {
+              "x": 106.25,
+              "y": 92.3984375,
+              "w": 80.25,
+              "h": 44
+            },
+            "selected": "false"
+          },
+          {
+            "sel": ".date-line",
+            "text": "ThursdayThu, 22 October 2026Daily menus",
+            "fg": "rgb(96, 113, 106)",
+            "bg": [
+              242,
+              244,
+              243
+            ],
+            "ratio": 4.67,
+            "size": "12px",
+            "line": "17.4px",
+            "rect": {
+              "x": 20,
+              "y": 59,
+              "w": 335,
+              "h": 29.3984375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".app-footer",
+            "text": "Menu schedules, not confirmed service.All serving times are IST.Research snapshot · 22 Oct",
+            "fg": "rgb(96, 113, 106)",
+            "bg": [
+              242,
+              244,
+              243
+            ],
+            "ratio": 4.67,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 20,
+              "y": 1024.5859375,
+              "w": 335,
+              "h": 133.8359375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".jump a",
+            "text": "FC1",
+            "fg": "rgb(33, 92, 73)",
+            "bg": [
+              226,
+              232,
+              229
+            ],
+            "ratio": 6.28,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 269,
+              "y": 154.3984375,
+              "w": 40,
+              "h": 28
+            },
+            "selected": null
+          }
+        ],
+        "sources": [
+          {
+            "mess": "fc1",
+            "text": "22 Oct · source year not supplied\n\nChecked 17:03 IST\nSource",
+            "href": "https://bluspring.vercel.app/",
+            "foodVisible": true
+          },
+          {
+            "mess": "fc2",
+            "text": "Published schedule · 22 Oct\n\nChecked 17:05 IST\nSource",
+            "href": "https://tikmit.com/",
+            "foodVisible": true
+          }
+        ]
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/editorial/snacks/"
+      },
+      "value": {
+        "url": "http://localhost:4322/editorial/snacks/",
+        "viewport": [
+          375,
+          812
+        ],
+        "overflow": 0,
+        "headings": [
+          [
+            "H2",
+            "FC1"
+          ],
+          [
+            "H2",
+            "FC2"
+          ]
+        ],
+        "styles": [
+          {
+            "sel": ".dish",
+            "text": "Packet bun",
+            "fg": "rgb(54, 38, 55)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 12.23,
+            "size": "16px",
+            "line": "27px",
+            "rect": {
+              "x": 22,
+              "y": 259.890625,
+              "w": 93,
+              "h": 21
+            },
+            "selected": null
+          },
+          {
+            "sel": ".source-note",
+            "text": "22 Oct · source year not supplied",
+            "fg": "rgb(113, 99, 79)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 5.06,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 22,
+              "y": 326.9453125,
+              "w": 164,
+              "h": 15.9453125
+            },
+            "selected": null
+          },
+          {
+            "sel": ".meta-text",
+            "text": "22 Oct · source year not suppliedChecked 17:03 IST",
+            "fg": "rgb(113, 99, 79)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 5.06,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 22,
+              "y": 326.9453125,
+              "w": 164,
+              "h": 33.890625
+            },
+            "selected": null
+          },
+          {
+            "sel": ".serving",
+            "text": "16:30–17:45",
+            "fg": "rgb(113, 62, 86)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 7.21,
+            "size": "12px",
+            "line": "17.4px",
+            "rect": {
+              "x": 281.34375,
+              "y": 224.1953125,
+              "w": 71.65625,
+              "h": 17.3984375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".meal",
+            "text": "Breakfast",
+            "fg": "rgb(113, 99, 79)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 5.06,
+            "size": "13px",
+            "line": "18.85px",
+            "rect": {
+              "x": 22,
+              "y": 102.1953125,
+              "w": 82.75,
+              "h": 46
+            },
+            "selected": "false"
+          },
+          {
+            "sel": ".meal",
+            "text": "Snacks",
+            "fg": "rgb(54, 38, 55)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 12.23,
+            "size": "13px",
+            "line": "18.85px",
+            "rect": {
+              "x": 187.5,
+              "y": 102.1953125,
+              "w": 82.75,
+              "h": 46
+            },
+            "selected": "true"
+          },
+          {
+            "sel": ".date-line",
+            "text": "ThursdayThu, 22 October 2026Thursday’s edition",
+            "fg": "rgb(113, 99, 79)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 5.06,
+            "size": "12px",
+            "line": "17.4px",
+            "rect": {
+              "x": 22,
+              "y": 67.796875,
+              "w": 331,
+              "h": 33.3984375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".app-footer",
+            "text": "Menu schedules, not confirmed service.All serving times are IST.Research snapshot · 22 Oct",
+            "fg": "rgb(113, 99, 79)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 5.06,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 22,
+              "y": 560.5859375,
+              "w": 331,
+              "h": 130.8359375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".jump a",
+            "text": "FC1",
+            "fg": "rgb(54, 38, 55)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 12.23,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 279,
+              "y": 154.1953125,
+              "w": 34,
+              "h": 30
+            },
+            "selected": null
+          }
+        ],
+        "sources": [
+          {
+            "mess": "fc1",
+            "text": "22 Oct · source year not supplied\n\nChecked 17:03 IST\nSource",
+            "href": "https://bluspring.vercel.app/",
+            "foodVisible": true
+          },
+          {
+            "mess": "fc2",
+            "text": "Published schedule · 22 Oct\n\nChecked 17:05 IST\nSource",
+            "href": "https://tikmit.com/",
+            "foodVisible": true
+          }
+        ]
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/modern/lunch/?scenario=mixed"
+      },
+      "value": {
+        "url": "http://localhost:4322/modern/lunch/?scenario=mixed",
+        "viewport": [
+          375,
+          812
+        ],
+        "overflow": 0,
+        "headings": [
+          [
+            "H2",
+            "FC1"
+          ],
+          [
+            "H2",
+            "FC2"
+          ],
+          [
+            "H3",
+            "Menu couldn’t be retrieved"
+          ],
+          [
+            "H2",
+            "Sindhi"
+          ],
+          [
+            "H3",
+            "Non-Veg"
+          ],
+          [
+            "H3",
+            "Veg"
+          ],
+          [
+            "H3",
+            "Veg Sides"
+          ]
+        ],
+        "styles": [
+          {
+            "sel": ".dish",
+            "text": "Lauki channa kootu",
+            "fg": "rgb(28, 41, 37)",
+            "bg": [
+              255,
+              255,
+              255
+            ],
+            "ratio": 15.07,
+            "size": "16px",
+            "line": "23px",
+            "rect": {
+              "x": 38,
+              "y": 359.9921875,
+              "w": 142.5,
+              "h": 46
+            },
+            "selected": null
+          },
+          {
+            "sel": ".source-note",
+            "text": "22 Oct · source year not supplied",
+            "fg": "rgb(96, 113, 106)",
+            "bg": [
+              255,
+              255,
+              255
+            ],
+            "ratio": 5.16,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 38,
+              "y": 580.046875,
+              "w": 167.5,
+              "h": 15.9453125
+            },
+            "selected": null
+          },
+          {
+            "sel": ".meta-text",
+            "text": "22 Oct · source year not suppliedChecked 17:03 IST",
+            "fg": "rgb(96, 113, 106)",
+            "bg": [
+              255,
+              255,
+              255
+            ],
+            "ratio": 5.16,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 38,
+              "y": 580.046875,
+              "w": 167.5,
+              "h": 33.890625
+            },
+            "selected": null
+          },
+          {
+            "sel": ".serving",
+            "text": "12:00–14:00",
+            "fg": "rgb(74, 93, 84)",
+            "bg": [
+              242,
+              244,
+              243
+            ],
+            "ratio": 6.37,
+            "size": "12px",
+            "line": "17.4px",
+            "rect": {
+              "x": 251,
+              "y": 262.4921875,
+              "w": 86,
+              "h": 27.3984375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".state-note",
+            "text": "Cached menu · latest check failed. This menu may have changed.",
+            "fg": "rgb(33, 92, 73)",
+            "bg": [
+              231,
+              239,
+              235
+            ],
+            "ratio": 6.67,
+            "size": "12px",
+            "line": "18px",
+            "rect": {
+              "x": 38,
+              "y": 289.9921875,
+              "w": 299,
+              "h": 56
+            },
+            "selected": null
+          },
+          {
+            "sel": ".simulation",
+            "text": "Prototype example · FC1 cached, FC2 unavailable",
+            "fg": "rgb(33, 92, 73)",
+            "bg": [
+              231,
+              239,
+              235
+            ],
+            "ratio": 6.67,
+            "size": "12px",
+            "line": "18px",
+            "rect": {
+              "x": 20,
+              "y": 192.3984375,
+              "w": 335,
+              "h": 38
+            },
+            "selected": null
+          },
+          {
+            "sel": ".missing p",
+            "text": "FC2’s source is unavailable. Check the source below; the other menus are unaffected.",
+            "fg": "rgb(96, 113, 106)",
+            "bg": [
+              255,
+              255,
+              255
+            ],
+            "ratio": 5.16,
+            "size": "14px",
+            "line": "20.3px",
+            "rect": {
+              "x": 38,
+              "y": 708.78125,
+              "w": 299,
+              "h": 40.59375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".meal",
+            "text": "Breakfast",
+            "fg": "rgb(74, 93, 84)",
+            "bg": [
+              226,
+              232,
+              229
+            ],
+            "ratio": 5.66,
+            "size": "13px",
+            "line": "18.85px",
+            "rect": {
+              "x": 24,
+              "y": 92.3984375,
+              "w": 80.25,
+              "h": 44
+            },
+            "selected": "false"
+          },
+          {
+            "sel": ".meal",
+            "text": "Lunch",
+            "fg": "rgb(33, 92, 73)",
+            "bg": [
+              255,
+              255,
+              255
+            ],
+            "ratio": 7.8,
+            "size": "13px",
+            "line": "18.85px",
+            "rect": {
+              "x": 106.25,
+              "y": 92.3984375,
+              "w": 80.25,
+              "h": 44
+            },
+            "selected": "true"
+          },
+          {
+            "sel": ".category",
+            "text": "Non-Veg",
+            "fg": "rgb(33, 92, 73)",
+            "bg": [
+              255,
+              255,
+              255
+            ],
+            "ratio": 7.8,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 38,
+              "y": 901.96875,
+              "w": 299,
+              "h": 15.9453125
+            },
+            "selected": null
+          },
+          {
+            "sel": ".date-line",
+            "text": "ThursdayThu, 22 October 2026Daily menus",
+            "fg": "rgb(96, 113, 106)",
+            "bg": [
+              242,
+              244,
+              243
+            ],
+            "ratio": 4.67,
+            "size": "12px",
+            "line": "17.4px",
+            "rect": {
+              "x": 20,
+              "y": 59,
+              "w": 335,
+              "h": 29.3984375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".app-footer",
+            "text": "Menu schedules, not confirmed service.All serving times are IST.Research snapshot · 22 Oct",
+            "fg": "rgb(96, 113, 106)",
+            "bg": [
+              242,
+              244,
+              243
+            ],
+            "ratio": 4.67,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 20,
+              "y": 1175.8046875,
+              "w": 335,
+              "h": 133.8359375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".jump a",
+            "text": "FC1",
+            "fg": "rgb(33, 92, 73)",
+            "bg": [
+              226,
+              232,
+              229
+            ],
+            "ratio": 6.28,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 225,
+              "y": 154.3984375,
+              "w": 40,
+              "h": 28
+            },
+            "selected": null
+          }
+        ],
+        "sources": [
+          {
+            "mess": "fc1",
+            "text": "22 Oct · source year not supplied\n\nChecked 17:03 IST\nSource",
+            "href": "https://bluspring.vercel.app/",
+            "foodVisible": true
+          },
+          {
+            "mess": "fc2",
+            "text": "Source unavailable · last retrieved 22 Oct\n\nChecked 17:05 IST\nSource",
+            "href": "https://tikmit.com/",
+            "foodVisible": false
+          },
+          {
+            "mess": "sindhi",
+            "text": "Menu 1 · rotating schedule\n\nChecked 17:28 IST\nSource",
+            "href": "https://sindhi.coolstuff.work/",
+            "foodVisible": true
+          }
+        ]
+      }
+    },
+    {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4322/editorial/lunch/?scenario=mixed"
+      },
+      "value": {
+        "url": "http://localhost:4322/editorial/lunch/?scenario=mixed",
+        "viewport": [
+          375,
+          812
+        ],
+        "overflow": 0,
+        "headings": [
+          [
+            "H2",
+            "FC1"
+          ],
+          [
+            "H2",
+            "FC2"
+          ],
+          [
+            "H3",
+            "Menu couldn’t be retrieved"
+          ],
+          [
+            "H2",
+            "Sindhi"
+          ],
+          [
+            "H3",
+            "Non-Veg"
+          ],
+          [
+            "H3",
+            "Veg"
+          ],
+          [
+            "H3",
+            "Veg Sides"
+          ]
+        ],
+        "styles": [
+          {
+            "sel": ".dish",
+            "text": "Lauki channa kootu",
+            "fg": "rgb(54, 38, 55)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 12.23,
+            "size": "16px",
+            "line": "27px",
+            "rect": {
+              "x": 22,
+              "y": 367.890625,
+              "w": 151.5,
+              "h": 21
+            },
+            "selected": null
+          },
+          {
+            "sel": ".source-note",
+            "text": "22 Oct · source year not supplied",
+            "fg": "rgb(113, 99, 79)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 5.06,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 22,
+              "y": 488.9453125,
+              "w": 164,
+              "h": 15.9453125
+            },
+            "selected": null
+          },
+          {
+            "sel": ".meta-text",
+            "text": "22 Oct · source year not suppliedChecked 17:03 IST",
+            "fg": "rgb(113, 99, 79)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 5.06,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 22,
+              "y": 488.9453125,
+              "w": 164,
+              "h": 33.890625
+            },
+            "selected": null
+          },
+          {
+            "sel": ".serving",
+            "text": "12:00–14:00",
+            "fg": "rgb(113, 62, 86)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 7.21,
+            "size": "12px",
+            "line": "17.4px",
+            "rect": {
+              "x": 281.34375,
+              "y": 276.1953125,
+              "w": 71.65625,
+              "h": 17.3984375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".state-note",
+            "text": "Cached menu · latest check failed. This menu may have changed.",
+            "fg": "rgb(113, 62, 86)",
+            "bg": [
+              232,
+              224,
+              187
+            ],
+            "ratio": 6.26,
+            "size": "12px",
+            "line": "18px",
+            "rect": {
+              "x": 22,
+              "y": 294.890625,
+              "w": 331,
+              "h": 56
+            },
+            "selected": null
+          },
+          {
+            "sel": ".simulation",
+            "text": "Prototype example · FC1 cached, FC2 unavailable",
+            "fg": "rgb(113, 62, 86)",
+            "bg": [
+              232,
+              224,
+              187
+            ],
+            "ratio": 6.26,
+            "size": "12px",
+            "line": "18px",
+            "rect": {
+              "x": 22,
+              "y": 190.1953125,
+              "w": 331,
+              "h": 38
+            },
+            "selected": null
+          },
+          {
+            "sel": ".missing p",
+            "text": "FC2’s source is unavailable. Check the source below; the other menus are unaffected.",
+            "fg": "rgb(113, 99, 79)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 5.06,
+            "size": "14px",
+            "line": "20.3px",
+            "rect": {
+              "x": 22,
+              "y": 625.78125,
+              "w": 289,
+              "h": 40.59375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".meal",
+            "text": "Breakfast",
+            "fg": "rgb(113, 99, 79)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 5.06,
+            "size": "13px",
+            "line": "18.85px",
+            "rect": {
+              "x": 22,
+              "y": 102.1953125,
+              "w": 82.75,
+              "h": 46
+            },
+            "selected": "false"
+          },
+          {
+            "sel": ".meal",
+            "text": "Lunch",
+            "fg": "rgb(54, 38, 55)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 12.23,
+            "size": "13px",
+            "line": "18.85px",
+            "rect": {
+              "x": 104.75,
+              "y": 102.1953125,
+              "w": 82.75,
+              "h": 46
+            },
+            "selected": "true"
+          },
+          {
+            "sel": ".category",
+            "text": "Non-Veg",
+            "fg": "rgb(113, 62, 86)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 7.21,
+            "size": "12px",
+            "line": "17.4px",
+            "rect": {
+              "x": 22,
+              "y": 816.0703125,
+              "w": 331,
+              "h": 17.3984375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".date-line",
+            "text": "ThursdayThu, 22 October 2026Thursday’s edition",
+            "fg": "rgb(113, 99, 79)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 5.06,
+            "size": "12px",
+            "line": "17.4px",
+            "rect": {
+              "x": 22,
+              "y": 67.796875,
+              "w": 331,
+              "h": 33.3984375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".app-footer",
+            "text": "Menu schedules, not confirmed service.All serving times are IST.Research snapshot · 22 Oct",
+            "fg": "rgb(113, 99, 79)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 5.06,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 22,
+              "y": 1037.265625,
+              "w": 331,
+              "h": 130.8359375
+            },
+            "selected": null
+          },
+          {
+            "sel": ".jump a",
+            "text": "FC1",
+            "fg": "rgb(54, 38, 55)",
+            "bg": [
+              244,
+              240,
+              207
+            ],
+            "ratio": 12.23,
+            "size": "11px",
+            "line": "15.95px",
+            "rect": {
+              "x": 239,
+              "y": 154.1953125,
+              "w": 34,
+              "h": 30
+            },
+            "selected": null
+          }
+        ],
+        "sources": [
+          {
+            "mess": "fc1",
+            "text": "22 Oct · source year not supplied\n\nChecked 17:03 IST\nSource",
+            "href": "https://bluspring.vercel.app/",
+            "foodVisible": true
+          },
+          {
+            "mess": "fc2",
+            "text": "Source unavailable · last retrieved 22 Oct\n\nChecked 17:05 IST\nSource",
+            "href": "https://tikmit.com/",
+            "foodVisible": false
+          },
+          {
+            "mess": "sindhi",
+            "text": "Menu 1 · rotating schedule\n\nChecked 17:28 IST\nSource",
+            "href": "https://sindhi.coolstuff.work/",
+            "foodVisible": true
+          }
+        ]
+      }
+    }
+  ],
+  "editorial430": {
+    "toolIcon": {
+      "_tag": "website",
+      "pageUrl": "http://localhost:4322/editorial/lunch/"
+    },
+    "value": {
+      "url": "http://localhost:4322/editorial/lunch/",
+      "viewport": [
+        430,
+        812
+      ],
+      "overflow": 0,
+      "headings": [
+        [
+          "H2",
+          "FC1"
+        ],
+        [
+          "H2",
+          "FC2"
+        ],
+        [
+          "H2",
+          "Sindhi"
+        ],
+        [
+          "H3",
+          "Non-Veg"
+        ],
+        [
+          "H3",
+          "Veg"
+        ],
+        [
+          "H3",
+          "Veg Sides"
+        ]
+      ],
+      "styles": [
+        {
+          "sel": ".dish",
+          "text": "Lauki channa kootu",
+          "fg": "rgb(54, 38, 55)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 12.23,
+          "size": "17px",
+          "line": "28px",
+          "rect": {
+            "x": 24,
+            "y": 259.890625,
+            "w": 160,
+            "h": 22
+          },
+          "selected": null
+        },
+        {
+          "sel": ".source-note",
+          "text": "22 Oct · source year not supplied",
+          "fg": "rgb(113, 99, 79)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 5.06,
+          "size": "11px",
+          "line": "15.95px",
+          "rect": {
+            "x": 24,
+            "y": 384.9453125,
+            "w": 164,
+            "h": 15.9453125
+          },
+          "selected": null
+        },
+        {
+          "sel": ".meta-text",
+          "text": "22 Oct · source year not suppliedChecked 17:03 IST",
+          "fg": "rgb(113, 99, 79)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 5.06,
+          "size": "11px",
+          "line": "15.95px",
+          "rect": {
+            "x": 24,
+            "y": 384.9453125,
+            "w": 164,
+            "h": 33.890625
+          },
+          "selected": null
+        },
+        {
+          "sel": ".serving",
+          "text": "12:00–14:00",
+          "fg": "rgb(113, 62, 86)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 7.21,
+          "size": "12px",
+          "line": "17.4px",
+          "rect": {
+            "x": 334.34375,
+            "y": 224.1953125,
+            "w": 71.65625,
+            "h": 17.3984375
+          },
+          "selected": null
+        },
+        {
+          "sel": ".meal",
+          "text": "Breakfast",
+          "fg": "rgb(113, 99, 79)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 5.06,
+          "size": "13px",
+          "line": "18.85px",
+          "rect": {
+            "x": 24,
+            "y": 102.1953125,
+            "w": 95.5,
+            "h": 46
+          },
+          "selected": "false"
+        },
+        {
+          "sel": ".meal",
+          "text": "Lunch",
+          "fg": "rgb(54, 38, 55)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 12.23,
+          "size": "13px",
+          "line": "18.85px",
+          "rect": {
+            "x": 119.5,
+            "y": 102.1953125,
+            "w": 95.5,
+            "h": 46
+          },
+          "selected": "true"
+        },
+        {
+          "sel": ".category",
+          "text": "Non-Veg",
+          "fg": "rgb(113, 62, 86)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 7.21,
+          "size": "12px",
+          "line": "17.4px",
+          "rect": {
+            "x": 24,
+            "y": 744.28125,
+            "w": 382,
+            "h": 17.3984375
+          },
+          "selected": null
+        },
+        {
+          "sel": ".date-line",
+          "text": "ThursdayThu, 22 October 2026Thursday’s edition",
+          "fg": "rgb(113, 99, 79)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 5.06,
+          "size": "12px",
+          "line": "17.4px",
+          "rect": {
+            "x": 24,
+            "y": 67.796875,
+            "w": 382,
+            "h": 33.3984375
+          },
+          "selected": null
+        },
+        {
+          "sel": ".app-footer",
+          "text": "Menu schedules, not confirmed service.All serving times are IST.Research snapshot · 22 Oct",
+          "fg": "rgb(113, 99, 79)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 5.06,
+          "size": "11px",
+          "line": "15.95px",
+          "rect": {
+            "x": 24,
+            "y": 968.4765625,
+            "w": 382,
+            "h": 130.8359375
+          },
+          "selected": null
+        },
+        {
+          "sel": ".jump a",
+          "text": "FC1",
+          "fg": "rgb(54, 38, 55)",
+          "bg": [
+            244,
+            240,
+            207
+          ],
+          "ratio": 12.23,
+          "size": "11px",
+          "line": "15.95px",
+          "rect": {
+            "x": 292,
+            "y": 154.1953125,
+            "w": 34,
+            "h": 30
+          },
+          "selected": null
+        }
+      ],
+      "sources": [
+        {
+          "mess": "fc1",
+          "text": "22 Oct · source year not supplied\n\nChecked 17:03 IST\nSource",
+          "href": "https://bluspring.vercel.app/",
+          "foodVisible": true
+        },
+        {
+          "mess": "fc2",
+          "text": "Published schedule · 22 Oct\n\nChecked 17:05 IST\nSource",
+          "href": "https://tikmit.com/",
+          "foodVisible": true
+        },
+        {
+          "mess": "sindhi",
+          "text": "Menu 1 · rotating schedule\n\nChecked 17:28 IST\nSource",
+          "href": "https://sindhi.coolstuff.work/",
+          "foodVisible": true
+        }
+      ]
+    }
+  },
+  "modern430": {
+    "toolIcon": {
+      "_tag": "website",
+      "pageUrl": "http://localhost:4322/modern/lunch/"
+    },
+    "value": {
+      "url": "http://localhost:4322/modern/lunch/",
+      "viewport": [
+        430,
+        812
+      ],
+      "overflow": 0,
+      "headings": [
+        [
+          "H2",
+          "FC1"
+        ],
+        [
+          "H2",
+          "FC2"
+        ],
+        [
+          "H2",
+          "Sindhi"
+        ],
+        [
+          "H3",
+          "Non-Veg"
+        ],
+        [
+          "H3",
+          "Veg"
+        ],
+        [
+          "H3",
+          "Veg Sides"
+        ]
+      ],
+      "styles": [
+        {
+          "sel": ".dish",
+          "text": "Lauki channa kootu",
+          "fg": "rgb(28, 41, 37)",
+          "bg": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.07,
+          "size": "16px",
+          "line": "23px",
+          "rect": {
+            "x": 40,
+            "y": 251.9921875,
+            "w": 168,
+            "h": 23
+          },
+          "selected": null
+        },
+        {
+          "sel": ".source-note",
+          "text": "22 Oct · source year not supplied",
+          "fg": "rgb(96, 113, 106)",
+          "bg": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 5.16,
+          "size": "11px",
+          "line": "15.95px",
+          "rect": {
+            "x": 40,
+            "y": 426.046875,
+            "w": 167.5,
+            "h": 15.9453125
+          },
+          "selected": null
+        },
+        {
+          "sel": ".meta-text",
+          "text": "22 Oct · source year not suppliedChecked 17:03 IST",
+          "fg": "rgb(96, 113, 106)",
+          "bg": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 5.16,
+          "size": "11px",
+          "line": "15.95px",
+          "rect": {
+            "x": 40,
+            "y": 426.046875,
+            "w": 167.5,
+            "h": 33.890625
+          },
+          "selected": null
+        },
+        {
+          "sel": ".serving",
+          "text": "12:00–14:00",
+          "fg": "rgb(74, 93, 84)",
+          "bg": [
+            242,
+            244,
+            243
+          ],
+          "ratio": 6.37,
+          "size": "12px",
+          "line": "17.4px",
+          "rect": {
+            "x": 304,
+            "y": 210.4921875,
+            "w": 86,
+            "h": 27.3984375
+          },
+          "selected": null
+        },
+        {
+          "sel": ".meal",
+          "text": "Breakfast",
+          "fg": "rgb(74, 93, 84)",
+          "bg": [
+            226,
+            232,
+            229
+          ],
+          "ratio": 5.66,
+          "size": "13px",
+          "line": "18.85px",
+          "rect": {
+            "x": 26,
+            "y": 92.3984375,
+            "w": 93,
+            "h": 44
+          },
+          "selected": "false"
+        },
+        {
+          "sel": ".meal",
+          "text": "Lunch",
+          "fg": "rgb(33, 92, 73)",
+          "bg": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 7.8,
+          "size": "13px",
+          "line": "18.85px",
+          "rect": {
+            "x": 121,
+            "y": 92.3984375,
+            "w": 93,
+            "h": 44
+          },
+          "selected": "true"
+        },
+        {
+          "sel": ".category",
+          "text": "Non-Veg",
+          "fg": "rgb(33, 92, 73)",
+          "bg": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 7.8,
+          "size": "11px",
+          "line": "15.95px",
+          "rect": {
+            "x": 40,
+            "y": 846.1796875,
+            "w": 350,
+            "h": 15.9453125
+          },
+          "selected": null
+        },
+        {
+          "sel": ".date-line",
+          "text": "ThursdayThu, 22 October 2026Daily menus",
+          "fg": "rgb(96, 113, 106)",
+          "bg": [
+            242,
+            244,
+            243
+          ],
+          "ratio": 4.67,
+          "size": "12px",
+          "line": "17.4px",
+          "rect": {
+            "x": 22,
+            "y": 59,
+            "w": 386,
+            "h": 29.3984375
+          },
+          "selected": null
+        },
+        {
+          "sel": ".app-footer",
+          "text": "Menu schedules, not confirmed service.All serving times are IST.Research snapshot · 22 Oct",
+          "fg": "rgb(96, 113, 106)",
+          "bg": [
+            242,
+            244,
+            243
+          ],
+          "ratio": 4.67,
+          "size": "11px",
+          "line": "15.95px",
+          "rect": {
+            "x": 22,
+            "y": 1120.015625,
+            "w": 386,
+            "h": 133.8359375
+          },
+          "selected": null
+        },
+        {
+          "sel": ".jump a",
+          "text": "FC1",
+          "fg": "rgb(33, 92, 73)",
+          "bg": [
+            226,
+            232,
+            229
+          ],
+          "ratio": 6.28,
+          "size": "11px",
+          "line": "15.95px",
+          "rect": {
+            "x": 278,
+            "y": 154.3984375,
+            "w": 40,
+            "h": 28
+          },
+          "selected": null
+        }
+      ],
+      "sources": [
+        {
+          "mess": "fc1",
+          "text": "22 Oct · source year not supplied\n\nChecked 17:03 IST\nSource",
+          "href": "https://bluspring.vercel.app/",
+          "foodVisible": true
+        },
+        {
+          "mess": "fc2",
+          "text": "Published schedule · 22 Oct\n\nChecked 17:05 IST\nSource",
+          "href": "https://tikmit.com/",
+          "foodVisible": true
+        },
+        {
+          "mess": "sindhi",
+          "text": "Menu 1 · rotating schedule\n\nChecked 17:28 IST\nSource",
+          "href": "https://sindhi.coolstuff.work/",
+          "foodVisible": true
+        }
+      ]
+    }
+  },
+  "overlayConsole": {
+    "editorial": [
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/ibm-plex-sans-latin.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:50:36.187Z"
+      },
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/geist.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:51:12.331Z"
+      },
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/ibm-plex-sans-latin.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:51:25.910Z"
+      },
+      {
+        "level": "log",
+        "text": "%c[impeccable] No anti-patterns found. color: #22c55e; font-weight: bold",
+        "timestamp": "2026-10-22T12:51:46.888Z"
+      },
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/ibm-plex-sans-latin.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:51:49.306Z"
+      }
+    ],
+    "modern": [
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/ibm-plex-sans-latin.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:50:36.187Z"
+      },
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/geist.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:51:12.331Z"
+      },
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/ibm-plex-sans-latin.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:51:25.910Z"
+      },
+      {
+        "level": "log",
+        "text": "%c[impeccable] No anti-patterns found. color: #22c55e; font-weight: bold",
+        "timestamp": "2026-10-22T12:51:46.888Z"
+      },
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/ibm-plex-sans-latin.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:51:49.306Z"
+      },
+      {
+        "level": "startGroup",
+        "text": "%c[impeccable] 2 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold",
+        "timestamp": "2026-10-22T12:52:01.693Z"
+      },
+      {
+        "level": "log",
+        "text": "%cundersized-ui-text%c 10px functional text \"Daily menus\" (below 11px floor) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+        "timestamp": "2026-10-22T12:52:01.693Z"
+      },
+      {
+        "level": "log",
+        "text": "%coverused-font%c Primary font: geist (100% of text) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+        "timestamp": "2026-10-22T12:52:01.693Z"
+      },
+      {
+        "level": "endGroup",
+        "text": "console.groupEnd",
+        "timestamp": "2026-10-22T12:52:01.693Z"
+      },
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/geist.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:52:04.395Z"
+      }
+    ],
+    "editorialMixed": [
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/ibm-plex-sans-latin.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:50:36.187Z"
+      },
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/geist.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:51:12.331Z"
+      },
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/ibm-plex-sans-latin.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:51:25.910Z"
+      },
+      {
+        "level": "log",
+        "text": "%c[impeccable] No anti-patterns found. color: #22c55e; font-weight: bold",
+        "timestamp": "2026-10-22T12:51:46.888Z"
+      },
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/ibm-plex-sans-latin.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:51:49.306Z"
+      },
+      {
+        "level": "startGroup",
+        "text": "%c[impeccable] 2 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold",
+        "timestamp": "2026-10-22T12:52:01.693Z"
+      },
+      {
+        "level": "log",
+        "text": "%cundersized-ui-text%c 10px functional text \"Daily menus\" (below 11px floor) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+        "timestamp": "2026-10-22T12:52:01.693Z"
+      },
+      {
+        "level": "log",
+        "text": "%coverused-font%c Primary font: geist (100% of text) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+        "timestamp": "2026-10-22T12:52:01.693Z"
+      },
+      {
+        "level": "endGroup",
+        "text": "console.groupEnd",
+        "timestamp": "2026-10-22T12:52:01.693Z"
+      },
+      {
+        "level": "warning",
+        "text": "The resource http://localhost:4322/fonts/geist.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+        "timestamp": "2026-10-22T12:52:04.395Z"
+      },
+      {
+        "level": "startGroup",
+        "text": "%c[impeccable] 1 anti-pattern found color: oklch(84% 0.19 80.46); font-weight: bold",
+        "timestamp": "2026-10-22T12:52:22.747Z"
+      },
+      {
+        "level": "log",
+        "text": "%cstraggler%c \"changed.\" alone on the last of 2 lines (17% of the measure) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+        "timestamp": "2026-10-22T12:52:22.747Z"
+      },
+      {
+        "level": "endGroup",
+        "text": "console.groupEnd",
+        "timestamp": "2026-10-22T12:52:22.747Z"
+      }
+    ]
+  },
+  "overlayStatus": {
+    "mutationProof": true,
+    "presentAttempted": true,
+    "visible": false,
+    "threeInjections": true,
+    "servicePort": 8400,
+    "stopped": true,
+    "cleanupCommand": ".agents/skills/impeccable/scripts/impeccable live-server stop --keep-inject"
+  }
+}

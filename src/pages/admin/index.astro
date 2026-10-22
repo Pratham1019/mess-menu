@@ -1,0 +1,85 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { isMeal, isMess, labels, meals, messes, sources, type Menu } from '../../lib/menu';
+import { isDate, istDate, shortDate } from '../../lib/dates';
+import { editorMenu, editorSelection, ValidationError } from '../../lib/validation';
+import { requireSession, checkOrigin, checkCsrf, readForm, HttpError } from '../../lib/server/http';
+import { readOverride, saveOverride, storageReady } from '../../lib/server/storage';
+import { sourceMenu } from '../../lib/server/menus';
+
+if (!['GET', 'POST', 'HEAD'].includes(Astro.request.method)) return new Response('Method not allowed.', { status: 405, headers: { Allow: 'GET, HEAD, POST' } });
+const session = requireSession(Astro);
+const now = new Date(), today = istDate(now);
+const selectedDate = Astro.url.searchParams.get('date');
+const selectedMess = Astro.url.searchParams.get('mess');
+const selectedMeal = Astro.url.searchParams.get('meal');
+let date = isDate(selectedDate) ? selectedDate : today;
+let mess = isMess(selectedMess) ? selectedMess : 'fc1';
+let meal = isMeal(selectedMeal) ? selectedMeal : 'lunch';
+let error = '', submitted: URLSearchParams | null = null;
+if (Astro.request.method === 'POST') {
+  try {
+    checkOrigin(Astro.request);
+    submitted = await readForm(Astro.request, ['csrf', 'date', 'mess', 'meal', 'start', 'end', 'items', 'sections', 'tags', 'note']);
+    checkCsrf(submitted, session);
+    const selection = editorSelection(submitted, now);
+    ({ date, mess, meal } = selection);
+    const menu = editorMenu(submitted);
+    await saveOverride({ version: 1, ...selection, savedAt: now.toISOString(), menu });
+    return Astro.redirect(`/admin?date=${date}&mess=${mess}&meal=${meal}&saved=1`, 303);
+  } catch (cause) {
+    Astro.response.status = cause instanceof HttpError ? cause.status : cause instanceof ValidationError ? 400 : 503;
+    error = cause instanceof HttpError || cause instanceof ValidationError ? cause.message : 'The menu could not be saved. Your changes are still below; please try again.';
+  }
+}
+let override = null, storageError = false, menu: Menu | null = null;
+try {
+  editorSelection(new URLSearchParams({ date, mess, meal }), now);
+  override = await readOverride(date, mess, meal);
+  menu = override?.menu ?? (await sourceMenu(mess, date, now)).snapshot?.meals[meal] ?? null;
+} catch (cause) {
+  if (cause instanceof ValidationError) { error ||= cause.message; Astro.response.status = 400; }
+  else storageError = true;
+}
+const editable = storageReady() && !storageError;
+const value = (key: string, fallback: string) => submitted?.get(key) ?? fallback;
+const groups = menu?.sections ?? [];
+const tags = menu?.items.map(item => item.tags) ?? [];
+---
+<Layout title="Menu editor" admin>
+  <main id="editor" tabindex="-1">
+    <div class="editor-head"><h1>Menu editor</h1><form action="/admin/logout" method="post"><input type="hidden" name="csrf" value={session.csrf} /><button type="submit" class="secondary">Log out</button></form></div>
+    {error && <p class="notice error" role="alert">{error}</p>}
+    {!editable && <p class="notice error" role="alert">Menu storage is unavailable. Please try again once the private store is connected.</p>}
+    {Astro.url.searchParams.has('saved') && !error && <p class="notice" role="status">Menu saved for {shortDate(date)}.</p>}
+    {Astro.url.searchParams.has('restored') && !error && <p class="notice" role="status">Admin edit removed. The source schedule will be shown when available.</p>}
+    <form action="/admin" method="get" class="selection-form">
+      <div class="selection-grid">
+        <div class="field"><label for="date">Date</label><input id="date" type="date" name="date" value={date} required /></div>
+        <div class="field"><label for="mess">Mess</label><select id="mess" name="mess">{messes.map(m => <option value={m} selected={m === mess}>{sources[m].name}</option>)}</select></div>
+        <div class="field"><label for="meal">Meal</label><select id="meal" name="meal">{meals.map(m => <option value={m} selected={m === meal}>{labels[m]}</option>)}</select></div>
+      </div>
+      <button type="submit" class="secondary">Load menu</button>
+    </form>
+    <p class="intro">{sources[mess].name} · {labels[meal]} · {shortDate(date)}<br />{override ? 'Editing the saved admin menu.' : menu ? 'Showing the source schedule. Saving creates an admin edit for this meal only.' : 'No source menu is available. Enter only verified menu details.'}</p>
+    <form action="/admin" method="post">
+      <input type="hidden" name="csrf" value={session.csrf} /><input type="hidden" name="date" value={date} /><input type="hidden" name="mess" value={mess} /><input type="hidden" name="meal" value={meal} />
+      <div class="time-grid">
+        <div class="field"><label for="start">Serving from (IST)</label><input id="start" type="time" name="start" value={value('start', menu?.start ?? '')} required /></div>
+        <div class="field"><label for="end">Serving until (IST)</label><input id="end" type="time" name="end" value={value('end', menu?.end ?? '')} required /></div>
+      </div>
+      <div class="field"><label for="items">Dishes</label><textarea id="items" name="items" rows="12" maxlength="12000" aria-describedby="items-hint">{value('items', menu?.items.map(item => item.name).join('\n') ?? '')}</textarea><p class="hint" id="items-hint">One complete dish per line. Up to 60 dishes, 160 characters each. Preserve source spelling and composite names.</p></div>
+      <div class="field"><label for="note">Source note (optional)</label><textarea id="note" name="note" rows="2" maxlength="300" aria-describedby="note-hint">{value('note', menu?.note ?? '')}</textarea><p class="hint" id="note-hint">Up to 300 characters. Use only information supplied by the mess.</p></div>
+      <details open={Boolean(groups.length || error)}><summary>Source groups and dietary tags</summary>
+        <p class="hint">Keep supplied groups and tags in sync when changing dishes. Clear these fields to use an ungrouped menu with no dietary claims.</p>
+        <div class="field"><label for="sections">Groups (optional JSON)</label><textarea id="sections" name="sections" rows="5" maxlength="30000" spellcheck="false" aria-describedby="sections-hint">{value('sections', groups.length ? JSON.stringify(groups, null, 2) : '')}</textarea><p class="hint" id="sections-hint">Up to 8 groups: {`[{"title":"Veg","items":[{"name":"Dal","tags":[]}]}]`}. Group dishes must match the complete list in order.</p></div>
+        <div class="field"><label for="tags">Dish tags (optional JSON)</label><textarea id="tags" name="tags" rows="3" maxlength="17000" spellcheck="false" aria-describedby="tags-hint">{value('tags', tags.some(t => t.length) ? JSON.stringify(tags) : '')}</textarea><p class="hint" id="tags-hint">One tag array per dish, in list order; for example {`[["veg"],[]]`}. Leave empty if the source provides none.</p></div>
+      </details>
+      <div class="actions"><button type="submit" disabled={!editable}>Save menu</button><a href={`/?date=${date}&meal=${meal}`} class="text-link">View public menu</a></div>
+    </form>
+    {override && <form action="/admin/restore" method="post" class="restore">
+      <input type="hidden" name="csrf" value={session.csrf} /><input type="hidden" name="date" value={date} /><input type="hidden" name="mess" value={mess} /><input type="hidden" name="meal" value={meal} />
+      <p class="intro">Remove this admin edit to return to the source schedule.</p><button type="submit" class="secondary" disabled={!editable}>Restore source menu</button>
+    </form>}
+  </main>
+</Layout>
