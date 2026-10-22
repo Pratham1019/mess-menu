@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000914" />
+
+    <title>Bluspring — Mess Menu</title>
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="View the weekly mess menu for all campus messes. Fast, mobile-friendly, and always up to date."
+    />
+
+    <!-- Open Graph (WhatsApp, Discord, LinkedIn, Facebook) -->
+    <meta property="og:title" content="Bluspring — Mess Menu" />
+    <meta
+      property="og:description"
+      content="View the weekly mess menu for all campus messes. Fast, mobile-friendly, and always up to date."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bluspring.vercel.app" />
+
+    <!-- Twitter/X -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Bluspring — Mess Menu" />
+    <meta
+      name="twitter:description"
+      content="View the weekly mess menu for all campus messes. Fast, mobile-friendly, and always up to date."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-CzZolopw.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DG1GFLVS.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

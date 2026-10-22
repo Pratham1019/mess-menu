@@ -1,0 +1,18 @@
+{
+  "Accept-Ranges": "bytes",
+  "Access-Control-Allow-Origin": "*",
+  "Age": "112596",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"2026-10-19-0b94477250b0.json\"",
+  "Content-Length": "30927",
+  "Content-Type": "application/json; charset=utf-8",
+  "Date": "Thu, 22 Oct 2026 11:35:54 GMT",
+  "Etag": "\"f0618a20ef256abb90aa166156c955c6\"",
+  "Last-Modified": "Wed, 21 Oct 2026 04:19:18 GMT",
+  "Server": "Vercel",
+  "Strict-Transport-Security": "max-age=63072000",
+  "X-Matched-Path": "/data/menu-bundle/normal/2026-10-19-0b94477250b0.json",
+  "X-Vercel-Cache": "HIT",
+  "X-Vercel-Id": "bom1::2hlq9-1792668954861-a0af6acd0619",
+  "Connection": "close"
+}

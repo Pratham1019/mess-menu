@@ -1,0 +1,20 @@
+{
+  "Access-Control-Allow-Headers": "Content-Type, Authorization",
+  "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+  "Access-Control-Allow-Origin": "*",
+  "Age": "0",
+  "Cache-Control": "no-store, max-age=0",
+  "Cdn-Cache-Control": "no-store",
+  "Content-Type": "application/json",
+  "Date": "Thu, 22 Oct 2026 11:35:55 GMT",
+  "Referrer-Policy": "strict-origin-when-cross-origin",
+  "Server": "Vercel",
+  "Strict-Transport-Security": "max-age=63072000",
+  "X-Content-Type-Options": "nosniff",
+  "X-Frame-Options": "DENY",
+  "X-Matched-Path": "/api/menu",
+  "X-Vercel-Cache": "MISS",
+  "X-Vercel-Id": "bom1::iad1::469q9-1792668954890-4aff953c87d6",
+  "Connection": "close",
+  "Transfer-Encoding": "chunked"
+}
