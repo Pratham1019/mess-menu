@@ -30,7 +30,9 @@ export const onRequest = defineMiddleware(async (context, next) => {
     } else response = await next();
   } else response = await next();
   response.headers.set("X-Content-Type-Options", "nosniff");
-  response.headers.set("Referrer-Policy", "no-referrer");
+  // Native POST forms need a real Origin header for the exact-origin check.
+  // no-referrer causes browsers to send Origin: null on these submissions.
+  response.headers.set("Referrer-Policy", admin ? "same-origin" : "no-referrer");
   response.headers.set("X-Frame-Options", "DENY");
   response.headers.set(
     "Permissions-Policy",

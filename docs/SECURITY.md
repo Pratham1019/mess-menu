@@ -23,7 +23,7 @@ Vercel provides `VERCEL=1` and its trusted IP headers automatically. Login is di
 - Session lifetime is eight hours, with no silent renewal. `__Host-mess_admin` is `HttpOnly; Secure; SameSite=Strict; Path=/`, has no Domain, and expires with the signed payload. Production admin access requires HTTPS.
 - Middleware verifies the signature and expiry on every `/admin` route. Only `/admin/login` is public. Every write is POST-only and independently checks the authenticated session at its handler boundary.
 - Logout requires POST, exact-origin and CSRF validation, then expires the cookie. Stateless logout clears this browser's session; a stolen cookie remains usable until expiry or global key/password rotation. Individual remote revocation requires server state and is deliberately outside this design.
-- Admin responses use private `no-store`, `X-Robots-Tag: noindex, nofollow`, frame denial, restrictive CSP, no-referrer, and MIME sniffing protection. No credentials or cookies are logged.
+- Admin responses use private `no-store`, `X-Robots-Tag: noindex, nofollow`, frame denial, restrictive CSP, `Referrer-Policy: same-origin`, and MIME sniffing protection. The referrer policy preserves the Origin header on native same-origin form submissions while withholding referrers from external sites. `no-referrer` would turn those POST origins into `null` and prevent login, saves, restore and logout. Public responses retain `no-referrer`. No credentials or cookies are logged.
 
 ## Shared login rate limiting
 

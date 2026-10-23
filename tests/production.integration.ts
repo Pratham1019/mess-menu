@@ -175,6 +175,7 @@ test(
       assert.equal((await post("/admin/logout", {})).status, 401);
       const login = await request("/admin/login");
       assert.equal(login.status, 200);
+      assert.equal(login.headers.get("referrer-policy"), "same-origin");
       assert.match(login.headers.get("cache-control")!, /no-store/);
       assert.match(
         login.headers.get("content-security-policy")!,
@@ -282,6 +283,7 @@ test(
       assert.ok(store.has("overrides/2026-10-22/fc1/lunch.json"));
       const publicResponse = await request("/?meal=lunch&date=2026-10-22");
       assert.equal(publicResponse.status, 200);
+      assert.equal(publicResponse.headers.get("referrer-policy"), "no-referrer");
       const publicHtml = await publicResponse.text();
       assert.match(publicHtml, /Verified test dish/i);
       assert.match(publicHtml, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/);
