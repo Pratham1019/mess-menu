@@ -1,0 +1,331 @@
+{
+  "engine": "156.0.8078.4",
+  "viewportHeight": 812,
+  "deviceScaleFactor": 2,
+  "snapshots": [
+    {
+      "file": "lunch-full-320.png",
+      "meal": "lunch",
+      "viewportWidth": 320,
+      "pageHeight": 1582,
+      "scrollWidth": 320,
+      "horizontalOverflow": false,
+      "firstDishTop": 285.984375,
+      "fullyVisibleDishes": 13,
+      "sections": [
+        {
+          "mess": "fc1",
+          "top": 204.5
+        },
+        {
+          "mess": "fc2",
+          "top": 637.984375
+        },
+        {
+          "mess": "sindhi",
+          "top": 1071.46875
+        }
+      ],
+      "menuColumnWidth": 296,
+      "stickyHeight": 62,
+      "nestedScrollContainers": [],
+      "bodyFont": "\"IBM Plex Sans\", Arial, sans-serif",
+      "bodySize": "16px",
+      "fontLoaded": true,
+      "interactiveTargets": [
+        {
+          "text": "Lunch",
+          "height": 44
+        },
+        {
+          "text": "Dinner",
+          "height": 44
+        },
+        {
+          "text": "FC1",
+          "height": 44
+        },
+        {
+          "text": "FC2",
+          "height": 44
+        },
+        {
+          "text": "Sindhi",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "file": "dinner-full-320.png",
+      "meal": "dinner",
+      "viewportWidth": 320,
+      "pageHeight": 1518,
+      "scrollWidth": 320,
+      "horizontalOverflow": false,
+      "firstDishTop": 285.984375,
+      "fullyVisibleDishes": 13,
+      "sections": [
+        {
+          "mess": "fc1",
+          "top": 204.5
+        },
+        {
+          "mess": "fc2",
+          "top": 609.984375
+        },
+        {
+          "mess": "sindhi",
+          "top": 1043.46875
+        }
+      ],
+      "menuColumnWidth": 296,
+      "stickyHeight": 62,
+      "nestedScrollContainers": [],
+      "bodyFont": "\"IBM Plex Sans\", Arial, sans-serif",
+      "bodySize": "16px",
+      "fontLoaded": true,
+      "interactiveTargets": [
+        {
+          "text": "Lunch",
+          "height": 44
+        },
+        {
+          "text": "Dinner",
+          "height": 44
+        },
+        {
+          "text": "FC1",
+          "height": 44
+        },
+        {
+          "text": "FC2",
+          "height": 44
+        },
+        {
+          "text": "Sindhi",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "file": "lunch-full-375.png",
+      "meal": "lunch",
+      "viewportWidth": 375,
+      "pageHeight": 1585,
+      "scrollWidth": 375,
+      "horizontalOverflow": false,
+      "firstDishTop": 288.984375,
+      "fullyVisibleDishes": 13,
+      "sections": [
+        {
+          "mess": "fc1",
+          "top": 207.5
+        },
+        {
+          "mess": "fc2",
+          "top": 640.984375
+        },
+        {
+          "mess": "sindhi",
+          "top": 1074.46875
+        }
+      ],
+      "menuColumnWidth": 343,
+      "stickyHeight": 62,
+      "nestedScrollContainers": [],
+      "bodyFont": "\"IBM Plex Sans\", Arial, sans-serif",
+      "bodySize": "16px",
+      "fontLoaded": true,
+      "interactiveTargets": [
+        {
+          "text": "Lunch",
+          "height": 44
+        },
+        {
+          "text": "Dinner",
+          "height": 44
+        },
+        {
+          "text": "FC1",
+          "height": 44
+        },
+        {
+          "text": "FC2",
+          "height": 44
+        },
+        {
+          "text": "Sindhi",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "file": "dinner-full-375.png",
+      "meal": "dinner",
+      "viewportWidth": 375,
+      "pageHeight": 1521,
+      "scrollWidth": 375,
+      "horizontalOverflow": false,
+      "firstDishTop": 288.984375,
+      "fullyVisibleDishes": 13,
+      "sections": [
+        {
+          "mess": "fc1",
+          "top": 207.5
+        },
+        {
+          "mess": "fc2",
+          "top": 612.984375
+        },
+        {
+          "mess": "sindhi",
+          "top": 1046.46875
+        }
+      ],
+      "menuColumnWidth": 343,
+      "stickyHeight": 62,
+      "nestedScrollContainers": [],
+      "bodyFont": "\"IBM Plex Sans\", Arial, sans-serif",
+      "bodySize": "16px",
+      "fontLoaded": true,
+      "interactiveTargets": [
+        {
+          "text": "Lunch",
+          "height": 44
+        },
+        {
+          "text": "Dinner",
+          "height": 44
+        },
+        {
+          "text": "FC1",
+          "height": 44
+        },
+        {
+          "text": "FC2",
+          "height": 44
+        },
+        {
+          "text": "Sindhi",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "file": "lunch-full-430.png",
+      "meal": "lunch",
+      "viewportWidth": 430,
+      "pageHeight": 1585,
+      "scrollWidth": 430,
+      "horizontalOverflow": false,
+      "firstDishTop": 288.984375,
+      "fullyVisibleDishes": 13,
+      "sections": [
+        {
+          "mess": "fc1",
+          "top": 207.5
+        },
+        {
+          "mess": "fc2",
+          "top": 640.984375
+        },
+        {
+          "mess": "sindhi",
+          "top": 1074.46875
+        }
+      ],
+      "menuColumnWidth": 390,
+      "stickyHeight": 62,
+      "nestedScrollContainers": [],
+      "bodyFont": "\"IBM Plex Sans\", Arial, sans-serif",
+      "bodySize": "16px",
+      "fontLoaded": true,
+      "interactiveTargets": [
+        {
+          "text": "Lunch",
+          "height": 44
+        },
+        {
+          "text": "Dinner",
+          "height": 44
+        },
+        {
+          "text": "FC1",
+          "height": 44
+        },
+        {
+          "text": "FC2",
+          "height": 44
+        },
+        {
+          "text": "Sindhi",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "file": "dinner-full-430.png",
+      "meal": "dinner",
+      "viewportWidth": 430,
+      "pageHeight": 1521,
+      "scrollWidth": 430,
+      "horizontalOverflow": false,
+      "firstDishTop": 288.984375,
+      "fullyVisibleDishes": 13,
+      "sections": [
+        {
+          "mess": "fc1",
+          "top": 207.5
+        },
+        {
+          "mess": "fc2",
+          "top": 612.984375
+        },
+        {
+          "mess": "sindhi",
+          "top": 1046.46875
+        }
+      ],
+      "menuColumnWidth": 390,
+      "stickyHeight": 62,
+      "nestedScrollContainers": [],
+      "bodyFont": "\"IBM Plex Sans\", Arial, sans-serif",
+      "bodySize": "16px",
+      "fontLoaded": true,
+      "interactiveTargets": [
+        {
+          "text": "Lunch",
+          "height": 44
+        },
+        {
+          "text": "Dinner",
+          "height": 44
+        },
+        {
+          "text": "FC1",
+          "height": 44
+        },
+        {
+          "text": "FC2",
+          "height": 44
+        },
+        {
+          "text": "Sindhi",
+          "height": 44
+        }
+      ]
+    }
+  ],
+  "interactionChecks": [
+    "200% text at 320px has no horizontal overflow.",
+    "Jump links keep menus open and clear the sticky bar; switching from Sindhi returns to the start.",
+    "Shared meal tabs support keyboard arrows, focus, and selection.",
+    "FC1 cached and FC2 missing states stay independent, persist between meals, and survive browser Back.",
+    "200% text at 375px has no horizontal overflow.",
+    "200% text at 430px has no horizontal overflow.",
+    "Without JavaScript, the real meal links navigate to complete static meal pages.",
+    "No page exceptions or external data/font requests during capture."
+  ],
+  "consoleErrors": [],
+  "externalRequests": []
+}

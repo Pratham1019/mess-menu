@@ -1,7 +1,0 @@
----
-import Hybrid from '../../components/Hybrid.astro';
-import {meals, type Meal} from '../../data/menu';
-export function getStaticPaths(){return meals.map(meal=>({params:{meal}}));}
-const meal=Astro.params.meal as Meal;
----
-<Hybrid meal={meal}/>

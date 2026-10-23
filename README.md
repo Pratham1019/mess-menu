@@ -15,7 +15,7 @@ npm run build
 npm run test:integration
 ```
 
-Open http://localhost:4321. The root application is production code. `prototype/` and `design-prototypes/` are historical, isolated design studies; they are not routed or included in the root build. Set the Vercel project's Root Directory to this repository root.
+Open http://localhost:4321. The root application is the only site. Set the Vercel project's Root Directory to this repository root.
 
 ## Admin setup
 

@@ -1,7 +1,0 @@
----
-import Experience from '../../components/Experience.astro';
-import {meals, type Meal, type Direction} from '../../data/menu';
-export function getStaticPaths(){return (['modern','editorial'] as const).flatMap(direction=>meals.map(meal=>({params:{direction,meal}})));}
-const {direction,meal}=Astro.params as {direction: Direction; meal: Meal};
----
-<Experience direction={direction} meal={meal}/>

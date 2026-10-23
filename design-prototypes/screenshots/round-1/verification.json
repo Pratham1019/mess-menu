@@ -1,0 +1,283 @@
+{
+  "browser": "156.0.8078.4",
+  "viewportHeight": 812,
+  "dpr": 2,
+  "snapshots": [
+    {
+      "direction": "modern",
+      "width": 320,
+      "meal": "breakfast",
+      "height": 1260,
+      "overflow": false,
+      "firstDishTop": 251.984375,
+      "visibleDishes": 14,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "modern",
+      "width": 320,
+      "meal": "lunch",
+      "height": 1595,
+      "overflow": false,
+      "firstDishTop": 251.984375,
+      "visibleDishes": 14,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "modern",
+      "width": 320,
+      "meal": "snacks",
+      "height": 826,
+      "overflow": false,
+      "firstDishTop": 251.984375,
+      "visibleDishes": 8,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "modern",
+      "width": 320,
+      "meal": "dinner",
+      "height": 1533,
+      "overflow": false,
+      "firstDishTop": 251.984375,
+      "visibleDishes": 14,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "modern",
+      "width": 375,
+      "meal": "breakfast",
+      "height": 1158,
+      "overflow": false,
+      "firstDishTop": 251.984375,
+      "visibleDishes": 16,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "modern",
+      "width": 375,
+      "meal": "lunch",
+      "height": 1323,
+      "overflow": false,
+      "firstDishTop": 251.984375,
+      "visibleDishes": 20,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "modern",
+      "width": 375,
+      "meal": "snacks",
+      "height": 812,
+      "overflow": false,
+      "firstDishTop": 251.984375,
+      "visibleDishes": 8,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "modern",
+      "width": 375,
+      "meal": "dinner",
+      "height": 1238,
+      "overflow": false,
+      "firstDishTop": 251.984375,
+      "visibleDishes": 19,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "modern",
+      "width": 430,
+      "meal": "breakfast",
+      "height": 1043,
+      "overflow": false,
+      "firstDishTop": 251.984375,
+      "visibleDishes": 20,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "modern",
+      "width": 430,
+      "meal": "lunch",
+      "height": 1254,
+      "overflow": false,
+      "firstDishTop": 251.984375,
+      "visibleDishes": 20,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "modern",
+      "width": 430,
+      "meal": "snacks",
+      "height": 812,
+      "overflow": false,
+      "firstDishTop": 251.984375,
+      "visibleDishes": 8,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "modern",
+      "width": 430,
+      "meal": "dinner",
+      "height": 1192,
+      "overflow": false,
+      "firstDishTop": 251.984375,
+      "visibleDishes": 19,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "editorial",
+      "width": 320,
+      "meal": "breakfast",
+      "height": 888,
+      "overflow": false,
+      "firstDishTop": 254.625,
+      "visibleDishes": 22,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "editorial",
+      "width": 320,
+      "meal": "lunch",
+      "height": 1120,
+      "overflow": false,
+      "firstDishTop": 254.625,
+      "visibleDishes": 20,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "editorial",
+      "width": 320,
+      "meal": "snacks",
+      "height": 812,
+      "overflow": false,
+      "firstDishTop": 254.625,
+      "visibleDishes": 8,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "editorial",
+      "width": 320,
+      "meal": "dinner",
+      "height": 1039,
+      "overflow": false,
+      "firstDishTop": 254.625,
+      "visibleDishes": 21,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "editorial",
+      "width": 375,
+      "meal": "breakfast",
+      "height": 907,
+      "overflow": false,
+      "firstDishTop": 259.875,
+      "visibleDishes": 22,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "editorial",
+      "width": 375,
+      "meal": "lunch",
+      "height": 1088,
+      "overflow": false,
+      "firstDishTop": 259.875,
+      "visibleDishes": 21,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "editorial",
+      "width": 375,
+      "meal": "snacks",
+      "height": 812,
+      "overflow": false,
+      "firstDishTop": 259.875,
+      "visibleDishes": 8,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "editorial",
+      "width": 375,
+      "meal": "dinner",
+      "height": 1060,
+      "overflow": false,
+      "firstDishTop": 259.875,
+      "visibleDishes": 21,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "editorial",
+      "width": 430,
+      "meal": "breakfast",
+      "height": 863,
+      "overflow": false,
+      "firstDishTop": 259.875,
+      "visibleDishes": 22,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "editorial",
+      "width": 430,
+      "meal": "lunch",
+      "height": 1099,
+      "overflow": false,
+      "firstDishTop": 259.875,
+      "visibleDishes": 21,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "editorial",
+      "width": 430,
+      "meal": "snacks",
+      "height": 812,
+      "overflow": false,
+      "firstDishTop": 259.875,
+      "visibleDishes": 8,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    },
+    {
+      "direction": "editorial",
+      "width": 430,
+      "meal": "dinner",
+      "height": 1015,
+      "overflow": false,
+      "firstDishTop": 259.875,
+      "visibleDishes": 21,
+      "fontLoaded": true,
+      "nestedScroll": 0
+    }
+  ],
+  "flows": [
+    "modern 320px: all four meals, eligibility, exact source entries, selector targets, overflow and 200% text reflow",
+    "modern 375px: all four meals, eligibility, exact source entries, selector targets, overflow and 200% text reflow",
+    "modern 430px: all four meals, eligibility, exact source entries, selector targets, overflow and 200% text reflow",
+    "modern: sticky selector, jump, reset, keyboard End, browser Back, independent mixed states, unsupported meals omitted and keyboard skip on all meals",
+    "editorial 320px: all four meals, eligibility, exact source entries, selector targets, overflow and 200% text reflow",
+    "editorial 375px: all four meals, eligibility, exact source entries, selector targets, overflow and 200% text reflow",
+    "editorial 430px: all four meals, eligibility, exact source entries, selector targets, overflow and 200% text reflow",
+    "editorial: sticky selector, jump, reset, keyboard End, browser Back, independent mixed states, unsupported meals omitted and keyboard skip on all meals"
+  ],
+  "errors": [],
+  "external": []
+}

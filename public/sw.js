@@ -48,7 +48,7 @@ function publicAsset(url) {
     ([
       "/src/scripts/menus.ts",
       "/src/styles/base.css",
-      "/src/styles/hybrid.css",
+      "/src/styles/site.css",
     ].includes(url.pathname) ||
       (url.pathname === "/src/pages/index.astro" &&
         url.searchParams.has("astro") &&
