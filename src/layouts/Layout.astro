@@ -13,7 +13,6 @@ const { title, admin = false } = Astro.props;
     <meta name="description" content="Today's FC1, FC2 and Sindhi mess menus at MIT Manipal. Compare breakfast, lunch, snacks and dinner." />
     {admin && <meta name="robots" content="noindex, nofollow" />}
     <title>{title} · The mess</title>
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="preload" href="/fonts/ibm-plex-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
   </head>
   <body class:list={['site', { admin }]}>

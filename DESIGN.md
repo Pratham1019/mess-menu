@@ -1,6 +1,6 @@
 # The mess
 
-Production implementation of the existing refined hybrid, authorized by the owner's request to implement the full site. The preceding Daily Sheet, Modern, Editorial and hybrid explorations remain archived outside the production source tree.
+Approved design for the production application, based on the refined hybrid direction.
 
 Preserve warm paper #F7F3E9, deep ink #2C2528 and restrained burgundy #7C293E. Locally hosted Fraunces provides branding and mess headings; IBM Plex Sans provides dishes and controls. Metadata uses #706168, dividers #D8CFC4 and dish rules #E3DCD2. No hero, decorative cards, illustrations or gradients.
 

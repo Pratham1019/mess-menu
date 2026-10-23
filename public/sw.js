@@ -1,6 +1,6 @@
 /* Public menu cache only. No admin documents, credentials, or mutation requests. */
 const DAY_CACHE = "mess-public-days-v1";
-const ASSET_CACHE = "mess-public-assets-v1";
+const ASSET_CACHE = "mess-public-assets-v2";
 const MAX_AGE = 48 * 60 * 60 * 1000;
 const MEALS = ["breakfast", "lunch", "snacks", "dinner"];
 const isoDate = (value) =>
@@ -38,7 +38,6 @@ function publicAsset(url) {
     [
       "/fonts/ibm-plex-sans-latin.woff2",
       "/fonts/fraunces.woff2",
-      "/favicon.svg",
     ].includes(url.pathname)
   )
     return true;

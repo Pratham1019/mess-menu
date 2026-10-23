@@ -99,7 +99,7 @@ test(
         return { statusCode: 200, data: "{}" };
       })
       .persist();
-    const bundle = `const week=${readFileSync("research/evidence/fc1-menu-literal.txt", "utf8")};const sources=[{key:'Food Court-1',data:week}];`;
+    const bundle = `const week=${readFileSync("tests/fixtures/fc1-menu-literal.txt", "utf8")};const sources=[{key:'Food Court-1',data:week}];`;
     const fc1 = mock.get("https://bluspring.vercel.app");
     fc1
       .intercept({ path: "/", method: "GET" })
@@ -123,7 +123,7 @@ test(
         return {
           statusCode: 200,
           data: readFileSync(
-            "research/evidence/fc2-menu-2026-10-22.json",
+            "tests/fixtures/fc2-menu-2026-10-22.json",
             "utf8",
           ),
         };
@@ -134,7 +134,7 @@ test(
       .intercept({ path: "/api/menu", method: "GET" })
       .reply(
         200,
-        readFileSync("research/evidence/sindhi-week-2026-10-19.json", "utf8"),
+        readFileSync("tests/fixtures/sindhi-week-2026-10-19.json", "utf8"),
       )
       .persist();
     try {

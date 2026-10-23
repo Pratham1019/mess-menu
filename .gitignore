@@ -28,5 +28,16 @@ Thumbs.db
 .idea/
 .vscode/
 
-# Local agent output
+# Local agent installations, settings, and output
+.agents/skills/
+.opencode/
+.codex/
+skills-lock.json
 .impeccable/
+
+# Design and browser artifacts
+screenshots/
+/prototype/
+/design-prototypes/
+/research/
+/docs/*browser-checks.json

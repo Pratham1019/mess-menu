@@ -89,24 +89,13 @@ Never introduce:
 - Complex navigation.
 - Feature bloat.
 
-## Design Exploration
-Current owner request: neither prior prototype is approved as-is. Build one refined hybrid in `design-prototypes/hybrid/` and `/hybrid/`: warm paper, deep ink, restrained burgundy, expressive serif branding/mess headings, polished four-option utility controls and compact provenance. Keep prior explorations for comparison. No production ingestion or deployment.
+## Approved direction
 
-Hybrid dishes must be individual full-width lines with natural wrapping. No dot-separated menu paragraphs, multi-column mobile dish layouts, invented categories or large mess cards. Retain only source-provided groups. Keep eligible messes open in stable order. Capture full-page and first-viewport at 375px; verify 320px and 430px.
-
-For each, provide:
-- Visual identity.
-- Typography.
-- Palette.
-- Mobile layout.
-- Menu hierarchy.
-- Advantages and compromises.
-
-Recommend one, then wait for approval.
+Follow [DESIGN.md](DESIGN.md) for the production typography, palette, layout and interactions. Use full-width individual dish lines with natural wrapping and only source-provided groups. Keep eligible messes open in stable order.
 
 ## Verification
 Use actual mobile screenshots.
-Evaluate at 320px, 375px, and 430px.
+Evaluate mobile at 320px, 375px, and 430px before desktop at 1440px. Capture both the first viewport and full page at 375px and 1440px. Keep screenshots and browser reports in the ignored `.impeccable/` directory.
 
 Check:
 - First-screen information density.
@@ -127,7 +116,3 @@ The best interface is not the one with
 the most features or visual effects.
 It is the one that makes reading and
 comparing menus feel effortless.
-
-
-## Current responsive refinement
-Refine the existing hybrid rather than replace its world. Improve row rhythm, serving-time hierarchy and restrained metadata. Full-width individual dishes remain within each mess; source categories only. Compose the desktop toolbar and source columns intentionally. Required captures: full page and first viewport at both 375px mobile and 1440px desktop. No production ingestion or deployment.

@@ -17,6 +17,8 @@ npm run test:integration
 
 Open http://localhost:4321. The root application is the only site. Set the Vercel project's Root Directory to this repository root.
 
+See [verification coverage](docs/VERIFICATION.md) and [test fixture provenance](tests/fixtures/README.md). Agent installations, screenshots and browser reports stay local and are ignored by Git.
+
 ## Admin setup
 
 Read [the security design and environment-variable requirements](docs/SECURITY.md) first. `/admin` is private; there is no registration or public admin link. Authentication uses Node scrypt and stateless HMAC-signed cookies.
@@ -26,7 +28,7 @@ Read [the security design and environment-variable requirements](docs/SECURITY.m
 3. Set `ADMIN_ORIGIN` to the exact HTTPS origin used to access the editor, without a trailing slash. Configure Preview and Production separately; do not use wildcard origins.
 4. Connect a **private** Vercel Blob store and set `BLOB_READ_WRITE_TOKEN` server-side. Separate production and preview stores are recommended.
 5. Publish a Vercel Firewall SDK rule using `@vercel/firewall` as its condition and the ID in `ADMIN_LOGIN_RATE_LIMIT_ID`. Set 5 requests per 600 seconds, per IP, with a rate-limit/429 action. Expose Vercel system variables. For protected previews also enable Protection Bypass for Automation so the SDK can reach its rule; Vercel supplies `VERCEL_AUTOMATION_BYPASS_SECRET`. A missing rule or unavailable shared limiter disables sign-in. There is no in-memory or development bypass.
-6. After an explicitly authorized Preview deployment, execute the deployment acceptance checks in `docs/SECURITY.md`, including a real sixth login attempt and a save/restore against Blob. This repository has not been deployed by this task.
+6. After an explicitly authorized Preview deployment, execute the deployment acceptance checks in `docs/SECURITY.md`, including a real sixth login attempt and a save/restore against Blob.
 
 The public site works locally without secrets by reading live sources. Admin login deliberately requires Vercel's shared rate limiter; local tests substitute infrastructure at the test boundary. Admin cookies are always Secure, including in development. Use local HTTPS for browser-based admin development with infrastructure supplied separately.
 

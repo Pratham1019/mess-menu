@@ -14,8 +14,8 @@ import { overridePath } from "../src/lib/server/storage";
 
 const now = new Date("2026-10-22T12:00:00Z");
 const load = (name: string) =>
-  JSON.parse(readFileSync(`research/evidence/${name}`, "utf8")) as unknown;
-const fixture = readFileSync("research/evidence/fc1-menu-literal.txt", "utf8");
+  JSON.parse(readFileSync(`tests/fixtures/${name}`, "utf8")) as unknown;
+const fixture = readFileSync("tests/fixtures/fc1-menu-literal.txt", "utf8");
 const payload = extractFc1(
   `function local(){const names=2;} const names=${fixture}; const configuration=[{key:'Food Court-1',data:names}];`,
 );
